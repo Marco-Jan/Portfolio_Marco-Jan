@@ -6,7 +6,7 @@ export const About = () => {
         <h2>About</h2>
         <div><img src={getImageUrl("about/skills.png")} alt="About Picture" className={styles.aboutImg} />
             <ul>
-            <li><img src={getImageUrl("about/frontend.png")} alt="Frontend " className={styles.technoImg} /> //TODO: ALt text fertig ausfüllen
+            <li><img src={getImageUrl("about/frontend.png")} alt="Frontend " className={styles.technoImg} /> 
                     <div>
                         <h3>Frontend Developer</h3>
                         <p>I'm a frontend developer with experience in building responsive and optimized sites</p>

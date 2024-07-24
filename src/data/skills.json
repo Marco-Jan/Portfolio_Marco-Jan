@@ -1,0 +1,14 @@
+[
+    {
+        "title":  "React",
+        "imageSrc": "skills/React.png"
+    },
+    {
+        "title":  "Typescript",
+        "imageSrc": "skills/Typescript.png"
+    },
+    {
+        "title":  "Phyton",
+        "imageSrc": "skills/Phyton.png"
+    }
+]

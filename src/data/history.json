@@ -1,0 +1,18 @@
+[
+    {
+        "role" : "UI-Designer",
+        "organisation": "",
+        "startDate": "März-2021",
+        "endDate": "Aug-2022",
+        "experience": ["Worked with Figma, Adobe Photoshop"],
+        "imageSrc": "history/bild.png"
+    },
+    {
+        "role" : "UI-Designer",
+        "organisation": "",
+        "startDate": "März-2021",
+        "endDate": "Aug-2022",
+        "experience": ["Worked with Figma, Adobe Photoshop"],
+        "imageSrc": "history/bild.png"
+    }
+]

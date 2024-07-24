@@ -79,4 +79,17 @@
     .content {
         flex-direction: column;
     }
+
+    .aboutImg {
+        display: none;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+    }
+
+    .aboutItem {
+        padding: 0 0;
+
+    }
 }

@@ -1,4 +1,4 @@
-bis minute 55:19
+
 About Site
 classNames werden grad bei section vergeben
 
@@ -10,4 +10,3 @@ classNames werden grad bei section vergeben
 //TODO: BIlder bei About austauschen
 
 
-https://www.youtube.com/watch?v=YQCDUJ6hhNY

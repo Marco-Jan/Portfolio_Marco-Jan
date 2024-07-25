@@ -4,7 +4,7 @@
         "organisation": "EDV|GRAZ",
         "startDate": "February-2023",
         "endDate": "Present",
-        "experience": ["Worked with Phyton, Node, Javascript, Typescript, C-Sharp, PHP, SQL, Figma "],
+        "experience": ["Worked with Phyton", "Node", "Javascript","Typescript","C-Sharp", "PHP", "SQL", "Figma"],
         "imageSrc": "history/edvGraz.png"
     },
     {
@@ -12,7 +12,7 @@
         "organisation": "Freundentanz",
         "startDate": "December-2022",
         "endDate": "Present",
-        "experience": ["Worked with Adobe Photoshop, Illutrator and After Effect"],
+        "experience": ["Worked with Adobe Photoshop", "Illustrator","After Effect"],
         "imageSrc": "history/Freundentanz_glow.png"
     }
 ]

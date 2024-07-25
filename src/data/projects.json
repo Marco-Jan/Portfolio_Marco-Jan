@@ -1,0 +1,26 @@
+[
+    {
+        "title": "TeamToss",
+        "imageSrc": "projects/TeamToss.jpg",
+        "description": "TeamToss Desription TeamToss Desription TeamToss Desription TeamToss Desription",
+        "skills":["React", "Node", "Typescript", "Firebase"],
+        "source": "https://github.com/Marco-Jan/TeamToss",
+        "demo": "https://teamtoss.vercel.app/"
+    },
+    {
+        "title": "Project 2",
+        "imageSrc": "projects/projectDummy1.jpg",
+        "description": "TeamToss Desription TeamToss Desription TeamToss Desription TeamToss Desription",
+        "skills":["React", "Node", "Typescript", "Firebase"],
+        "source": "https://github.com/Marco-Jan/TeamToss",
+        "demo": "https://teamtoss.vercel.app/"
+    },
+    {
+        "title": "Project 3",
+        "imageSrc": "projects/projectDummy2.jpg",
+        "description": "TeamToss Desription TeamToss Desription TeamToss Desription TeamToss Desription",
+        "skills":["React", "Node", "Typescript", "Firebase"],
+        "source": "https://github.com/Marco-Jan/TeamToss",
+        "demo": "https://teamtoss.vercel.app/"
+    }
+]

@@ -75,11 +75,10 @@
 .topBlur {
     position: absolute;
     width: 50vw;
-    height: 50vh;
-    min-width: 350px;
-    min-width: 350px;
+    height: 50vw;
+    min-width: 320px;
     top: -128px;
-    left: 10vw;
+    /* left: 10vw; */
     border-radius: 764px;
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
@@ -88,11 +87,11 @@
 .bottomBlur {
     position: absolute;
     width: 70vw;
-    height: 50vh;
+    height: 50vw;
     min-width: 350px;
     min-width: 250px;
     top: 246px;
-    left: 10vw;
+    right: 10vw;
     border-radius: 764px;
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);

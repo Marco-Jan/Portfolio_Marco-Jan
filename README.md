@@ -7,6 +7,6 @@ classNames werden grad bei section vergeben
     runterladen statt frontent monito
 
 //TODO: ALT Text bei About fertig ausfüllen
-//TODO: BIlder bei About austauschen
+//TODO: BIlder austauschen, Aboutbilder austauschen
 
 

@@ -82,6 +82,10 @@
 }
 
 .historyItemDetails h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.historyItemDetails p{
     font-size: 20px;
     font-weight: 300;
 }
@@ -90,4 +94,6 @@
     margin-top: 6px;
     list-style-position: inside;
     font-size: 25px;
+    list-style-type: disc;
+    margin-left: 17px;
 }

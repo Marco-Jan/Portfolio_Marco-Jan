@@ -38,5 +38,17 @@
     {
         "title": "SQL",
         "imageSrc": "skills/Sql.png"
+    },
+    {
+        "title": "Photoshop",
+        "imageSrc": "skills/adobePs.png"
+    },
+    {
+        "title": "Illustrator ",
+        "imageSrc": "skills/adobeAi.png"
+    },
+    {
+        "title": "After Effect",
+        "imageSrc": "skills/adobeAe.png"
     }
 ]

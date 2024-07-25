@@ -3,7 +3,7 @@
         "role" : "Software Developer",
         "organisation": "EDV|GRAZ",
         "startDate": "February-2023",
-        "endDate": "Still",
+        "endDate": "Present",
         "experience": ["Worked with Phyton, Node, Javascript, Typescript, C-Sharp, PHP, SQL, Figma "],
         "imageSrc": "history/edvGraz.png"
     },
@@ -11,7 +11,7 @@
         "role" : "Grafic Designer",
         "organisation": "Freundentanz",
         "startDate": "December-2022",
-        "endDate": "Still",
+        "endDate": "Present",
         "experience": ["Worked with Adobe Photoshop, Illutrator and After Effect"],
         "imageSrc": "history/Freundentanz_glow.png"
     }

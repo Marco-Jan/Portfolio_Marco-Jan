@@ -102,5 +102,17 @@
     .content {
         align-items: center;
     }
+
+
+    .topBlur {  
+        height: 70vw;  
+        top: 100px;
+        background: rgba(25, 55, 109, 0.7);    
+    }
+    .bottomBlur {       
+        top: 450px;  
+        background: rgba(25, 55, 109, 0.7); 
+    }
+    
     
 }

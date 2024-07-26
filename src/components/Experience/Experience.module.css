@@ -77,20 +77,21 @@
     width: 140px;
 }
 
-.historyItemDetails{
+.historyItemDetails {
     font-family: var(--font-roboto);
 }
 
-.historyItemDetails h3{
+.historyItemDetails h3 {
     font-size: 30px;
     font-weight: 500;
 }
-.historyItemDetails p{
+
+.historyItemDetails p {
     font-size: 20px;
     font-weight: 300;
 }
 
-.historyItemDetails ul{
+.historyItemDetails ul {
     margin-top: 6px;
     list-style-position: inside;
     font-size: 25px;
@@ -98,12 +99,13 @@
     margin-left: 17px;
 }
 
-@media screen and (max-width: 830px){
+@media screen and (max-width: 830px) {
     .content {
         flex-direction: column;
         align-items: center;
         gap: 34px;
     }
+
     .skills {
         width: 100%;
         flex-direction: row;
@@ -113,5 +115,14 @@
     .history {
         width: 100%;
         gap: 9px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .historyItem {
+        display: flex;
+        flex-direction: column;
+        
     }
 }

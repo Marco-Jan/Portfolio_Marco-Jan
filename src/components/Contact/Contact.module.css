@@ -70,3 +70,35 @@
     }
     
 }
+
+@media screen and (max-width: 380px) {
+
+    .container{
+        max-width: 300px;
+        padding: 0 auto;
+    }
+    .text h2 {
+        font-size: 40px;
+    }
+    
+    .text p {
+        font-size: 30px;
+    }
+    
+    .links {
+        gap: 16px;
+    }
+    
+    .link {
+        gap: 15px;
+    }
+    
+    .link a {
+        font-size: 18px;
+    }
+    
+    .contactImg {
+        height: 20px;
+    }
+}
+

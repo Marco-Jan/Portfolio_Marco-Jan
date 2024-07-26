@@ -16,7 +16,7 @@
     border-radius: 10px;
     border: 1.2px solid rgba(36, 36, 36, 0.18);
     -webkit-backdrop-filter: blur(8px);
-            backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
     padding: 20px;
     margin-bottom: 20px;
@@ -55,7 +55,7 @@
     padding: 2px 22px;
 }
 
-.links{
+.links {
     width: 100%;
     margin-top: 26px;
     display: flex;
@@ -73,3 +73,14 @@
 }
 
 
+@media screen and (max-width: 380px) {
+    .container {
+        max-width: 300px;
+    }
+
+    .link {
+        
+        font-size: 20px;
+        
+    }
+}

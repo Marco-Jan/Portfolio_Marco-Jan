@@ -104,3 +104,45 @@
 
     }
 }
+
+
+@media screen and (max-width: 350px) {
+    .container {
+        background-color: transparent;
+        padding:0 0;
+        
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .aboutImg {
+        display: none;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+    }
+
+    .aboutItem {
+        padding: 0 20px;
+
+    }
+
+    .aboutItem h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .aboutItem p {
+        font-size: 15px;
+    }
+
+    .technoImg {
+        margin: 0 10px;
+        width: 30%;
+        z-index: 1;
+    }
+    
+}

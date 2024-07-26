@@ -22,7 +22,13 @@
     margin-bottom: 20px;
 }
 
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
 .projectImg {
+    height: 250px;
     margin-bottom: 26px;
 }
 
@@ -88,6 +94,10 @@
 @media screen and (max-width: 630px) {
     .container {
         max-width: 330px;
+    }
+    .projectImg {
+        height: 150px;
+        margin-bottom: 26px;
     }
 
     .link {

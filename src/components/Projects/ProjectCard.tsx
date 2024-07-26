@@ -15,11 +15,13 @@ interface ProjectCardProps {
 export const ProjectCard = ({ title, imageSrc, description, skills, demo, source }: ProjectCardProps) => {
     return (
         <div className={`${styles.container} ${styles.glassEffect}`}>
-            <img
-                src={getImageUrl(imageSrc)}
-                alt={`Image of ${title}`}
-                className={styles.projectImg}
-            />
+            <div className={styles.imageContainer}>
+                <img
+                    src={getImageUrl(imageSrc)}
+                    alt={`Image of ${title}`}
+                    className={styles.projectImg}
+                />
+            </div>
             <h3 className={styles.title}>{title}</h3>
             <p className={styles.description}>{description}</p>
             <ul className={styles.skills}>

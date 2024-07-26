@@ -2,7 +2,7 @@
 About Site
 classNames werden grad bei section vergeben
 
-//TODO: !!!!!!! Für kleine devices noch anpassen!!! 
+//TODO: Admin Dashboard
 !!!!!!!! zwei query einrichten und schaun wie das neue media query funktioniert!!!!
 //TODO: nach oben Button programmieren
 

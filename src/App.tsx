@@ -7,6 +7,7 @@ import { Experience } from "./components/Experience/Experience"
 import { Projects } from "./components/Projects/Projects"
 import { Contact } from "./components/Contact/Contact";
 // import { AnimatedBackground } from "./components/AnimatedBackground/AnimatedBackground";
+import { SubFooter } from "./components/SubFooter/SubFooter";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <SubFooter />
     </div>;
 
   }

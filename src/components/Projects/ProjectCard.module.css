@@ -77,22 +77,30 @@
 
 @media screen and (max-width: 830px) {
     .container {
-        max-width: 300px;
-    }
-
-    .link {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .container {
         max-width: 600px;
     }
 
     .link {
         font-size: 32px;
     }
+}
 
-    
+@media screen and (max-width: 630px) {
+    .container {
+        max-width: 330px;
+    }
+
+    .link {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .container {
+        max-width: 330px;
+    }
+
+    .link {
+        font-size: 18px;
+    }
 }

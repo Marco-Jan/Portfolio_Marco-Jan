@@ -86,9 +86,13 @@
         padding:0 0;
         
     }
+    .title {
+        margin-left: 20px;
+    }
 
     .content {
         flex-direction: column;
+        padding-bottom: 40px;
     }
 
     .aboutImg {
@@ -100,9 +104,28 @@
     }
 
     .aboutItem {
-        padding: 0 0;
+       
+        width: 300px;
+        padding: 0 0px;
 
     }
+
+    .aboutItem h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .aboutItem p {
+        font-size: 15px;
+    }
+
+    .technoImg {
+        margin: 0 20px;
+        width: 30%;
+        z-index: 1;
+    }
+
+    
 }
 
 

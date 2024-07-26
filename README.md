@@ -3,8 +3,7 @@ About Site
 classNames werden grad bei section vergeben
 
 
-//TODO: https://pngtree.com/freepng/abstract-gradient-color-geometric-border_6840541.html
-    runterladen statt frontent monito
+//TODO: nach oben Button programmieren
 
 //TODO: ALT Text bei About fertig ausfüllen
 //TODO: BIlder austauschen, Aboutbilder austauschen

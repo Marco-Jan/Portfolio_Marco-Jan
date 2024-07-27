@@ -1,10 +1,10 @@
 @import '../../vars.css';
 
 .container {
-    position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #0b2447 0%, rgba(25, 25, 109, 0)100%);
     border-radius: 15px;
-    padding: 73px;
     margin-top: 129px;
     margin-left: 10%;
     margin-right: 10%;
@@ -23,6 +23,7 @@
 .content {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .aboutImg {
@@ -33,20 +34,20 @@
 .aboutItems {
     color: var(--color-text);
     display: flex;
-    flex-direction: column;
-    gap: 50px;
+    margin: 24px 10%;
+    gap: 24px;
+    
 }
 
 .aboutItem {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 20px;
     list-style: none;
+    width: 250px;
     padding: 25px;
-    background-image: linear-gradient(90deg, rgba(165,215,232, 0.42) 0%, rgba(255,255,250,0) 100%);
     background-size: 0 100%;
-
 }
 
 .aboutItem:hover{
@@ -68,7 +69,12 @@
     width: 60%;
     z-index: 1;
 }
-
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .glassEffect {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 10%);
     border-radius: 10px;
@@ -78,6 +84,17 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
     padding: 20px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .aboutItems {
+        flex-direction: column;
+    }
+
+    .aboutItem {      
+        width: 450px;
+        z-index: 1;
+    }
 }
 
 @media screen and (max-width: 830px) {
@@ -105,8 +122,10 @@
 
     .aboutItem {
        
-        width: 300px;
-        padding: 0 0px;
+        width: 400px;
+        height: 300px;
+        padding: 0 10%;
+        z-index: 1;
 
     }
 
@@ -121,7 +140,7 @@
 
     .technoImg {
         margin: 0 20px;
-        width: 30%;
+        width: 50%;
         z-index: 1;
     }
 

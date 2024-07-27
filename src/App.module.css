@@ -10,8 +10,9 @@
 .topOneBlur {
     position: absolute;
     left: 5%;
-    width: 10%;
-    height: 400vh; /* Höhe auf 200vh setzen, um den Effekt über die gesamte Ansicht zu erstrecken */
+    top: 150vh;
+    width: 320px;
+    height: 200vh; /* Höhe auf 200vh setzen, um den Effekt über die gesamte Ansicht zu erstrecken */
     min-width: 250px;
     border-radius: 50%; /* Verwende 50%, um einen runden Effekt zu erzielen */
     background: radial-gradient(circle at top center, var(--color-accent-hard), transparent 70%);
@@ -22,10 +23,11 @@
 
 .topTwoBlur {
     position: absolute;
-    left: 60%;
-    width: 10%;
-    height: 400vh; /* Höhe auf 200vh setzen, um den Effekt über die gesamte Ansicht zu erstrecken */
-    min-width: 250px;
+    left: 50%;
+    top: 20vh;
+    width: 40%;
+    height: 200vh; /* Höhe auf 200vh setzen, um den Effekt über die gesamte Ansicht zu erstrecken */
+    min-width: 150px;
     border-radius: 50%; /* Verwende 50%, um einen runden Effekt zu erzielen */
     background: radial-gradient(circle at top center, var(--color-accent-hard), transparent 70%);
     filter: blur(130px);

@@ -27,13 +27,12 @@ export const ScrollUpButton = () => {
     }, []);
 
     return (
-        <div className={styles.scrollBtnContainer}>
-            <div className={styles.scrollUpBtn}>
-                {isVisible &&
-                    <div onClick={scrollToTop}>
-                        &#8593;
-                    </div>}
-            </div>
+        <div className={styles.scrollBtnContainer} onClick={scrollToTop}>
+            {isVisible && <div className={styles.scrollUpBtn}>
+                <div >
+                    &#8593;
+                </div>
+            </div>}
         </div>
     );
 };

@@ -11,9 +11,9 @@ export const Hero = () => {
         if (typedRef.current) {
             const options = {
                 strings: [
-                    "I'm a Junior developer with experience using React, NodeJS, etc...",
-                    "I specialize in creating interactive and engaging web applications.",
-                    "Feel free to explore my portfolio and get in touch!"
+                    "Ich bin Junior-Entwickler mit Erfahrung in der Nutzung von React, NodeJS und weiteren Technologien.",
+                    "Ich spezialisiere mich auf die Erstellung interaktiver und ansprechender Webanwendungen.",
+                    "Schauen Sie sich gerne mein Portfolio an und nehmen Sie Kontakt mit mir auf!"
                 ],
                 typeSpeed: 50,
                 backSpeed: 30,

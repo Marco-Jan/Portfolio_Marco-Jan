@@ -2,7 +2,7 @@
 import styles from './Navbar.module.css';
 import { useState } from 'react';
 import { getImageUrl } from '../../utils.ts';
-// import { Login } from "../Login/Login.tsx";
+
 
 
 export const Navbar = () => {
@@ -25,7 +25,7 @@ export const Navbar = () => {
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    {/* <Login /> */}
+                 
                 </ul>
             </div>
         </nav>

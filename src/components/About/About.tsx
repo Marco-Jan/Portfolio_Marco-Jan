@@ -10,7 +10,9 @@ export const About = () => {
                 <ul className={styles.aboutItems}>
                     <li className={`${styles.aboutItem} ${styles.glassEffect}`}>
                         <div className={styles.card}>
+                        <div className={styles.technoImgContainer}>
                             <img src={getImageUrl("about/frontend.png")} alt="Frontend" className={styles.technoImg} />
+                            </div>
                             <div className={styles.aboutItemtext}>
                                 <h3>Frontend Developer</h3>
                                 <p>I'm a frontend developer with experience in building responsive and optimized sites</p>
@@ -19,7 +21,9 @@ export const About = () => {
                     </li>
                     <li className={`${styles.aboutItem} ${styles.glassEffect}`}>
                         <div className={styles.card}>
+                            <div className={styles.technoImgContainer}>
                             <img src={getImageUrl("about/backend.png")} alt="Backend" className={styles.technoImg} />
+                            </div>
                             <div className={styles.aboutItemtext}>
                                 <h3>Backend Developer</h3>
                                 <p>I'm a frontend developer with experience in building responsive and optimized sites</p>
@@ -28,7 +32,9 @@ export const About = () => {
                     </li>
                     <li className={`${styles.aboutItem} ${styles.glassEffect}`}>
                         <div className={styles.card}>
+                        <div className={styles.technoImgContainer}>
                             <img src={getImageUrl("about/uiDesign.png")} alt="UI Design" className={styles.technoImg} />
+                            </div>
                             <div className={styles.aboutItemtext}>
                                 <h3>UI Design</h3>
                                 <p>I'm a frontend developer with experience in building responsive and optimized sites</p>

@@ -6,3 +6,29 @@
     height: 100%;
     z-index: -10;
 }
+
+.topOneBlur {
+    position: absolute;
+    left: 5%;
+    width: 10%;
+    height: 400vh; /* Höhe auf 200vh setzen, um den Effekt über die gesamte Ansicht zu erstrecken */
+    min-width: 250px;
+    border-radius: 50%; /* Verwende 50%, um einen runden Effekt zu erzielen */
+    background: radial-gradient(circle at top center, var(--color-accent-hard), transparent 70%);
+    filter: blur(80px);
+    z-index: 0;
+    pointer-events: none; /* Optional: Verhindert, dass das Element auf Mausklicks reagiert */
+}
+
+.topTwoBlur {
+    position: absolute;
+    left: 60%;
+    width: 10%;
+    height: 400vh; /* Höhe auf 200vh setzen, um den Effekt über die gesamte Ansicht zu erstrecken */
+    min-width: 250px;
+    border-radius: 50%; /* Verwende 50%, um einen runden Effekt zu erzielen */
+    background: radial-gradient(circle at top center, var(--color-accent-hard), transparent 70%);
+    filter: blur(130px);
+    z-index: 0;
+    pointer-events: none; /* Optional: Verhindert, dass das Element auf Mausklicks reagiert */
+}

@@ -59,7 +59,7 @@
     font-size: 25px;
     font-weight: 400;
     border-radius: 100px;
-    background: var(--color-dark);
+    background: var(--color-accent-hard);
     padding: 2px 22px;
 }
 
@@ -76,7 +76,7 @@
     font-size: 30px;
     font-weight: 600;
     border-radius: 100px;
-    background: var(--color-primary);
+    background: var(--color-accent-soft);
     padding: 1px 22px;
 }
 

@@ -1,54 +1,78 @@
 [
     {
         "title": "HTML",
-        "imageSrc": "skills/html.png"
+        "imageSrc": "skills/html.png",
+        "skills": 4
     },
     {
         "title": "CSS",
-        "imageSrc": "skills/css.png"
+        "imageSrc": "skills/css.png",
+        "skills" : 4
     },
     {
         "title": "React",
-        "imageSrc": "skills/React.png"
+        "imageSrc": "skills/React.png",
+        "skills" : 3
+
     },
     {
         "title": "Java-Script",
-        "imageSrc": "skills/JavaScript.png"
+        "imageSrc": "skills/JavaScript.png",
+        "skills" : 4
+
     },
     {
         "title": "Typescript",
-        "imageSrc": "skills/Typescript.png"
+        "imageSrc": "skills/Typescript.png", 
+        "skills" : 3
+
     },
     {
         "title": "Node",
-        "imageSrc": "skills/node-js.png"
+        "imageSrc": "skills/node-js.png",
+        "skills" : 3
+
     },
     {
         "title": "Phyton",
-        "imageSrc": "skills/Python.png"
+        "imageSrc": "skills/Python.png",
+        "skills" : 1
+
     },
     {
         "title": "C-Sharp",
-        "imageSrc": "skills/C_sharp.png"
+        "imageSrc": "skills/C_sharp.png",
+        "skills" : 2
+
     },
     {
         "title": "PHP",
-        "imageSrc": "skills/PHP.png"
+        "imageSrc": "skills/PHP.png",
+        "skills" : 3
+
     },
     {
         "title": "SQL",
-        "imageSrc": "skills/Sql.png"
+        "imageSrc": "skills/Sql.png",
+        "skills" : 3
+
     },
     {
         "title": "Photoshop",
-        "imageSrc": "skills/adobePs.png"
+        "imageSrc": "skills/adobePs.png",
+        "skills" : 4
+
     },
     {
         "title": "Illustrator ",
-        "imageSrc": "skills/adobeAi.png"
+        "imageSrc": "skills/adobeAi.png",
+        "skills" : 2
+
     },
     {
-        "title": "After Effect",
-        "imageSrc": "skills/adobeAe.png"
+        "title": "After Effects",
+        "imageSrc": "skills/adobeAe.png",
+        "skills" : 2
+
     }
 ]

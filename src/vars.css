@@ -1,11 +1,25 @@
 :root {
     /* Colours */
-    --color-text: #fff;
+    /* --color-text: #fff;
     --color-text-black: #0e0e0e;
     --color-primary: #576cbc;
     --color-secondary: #19376d;
     --color-dark: #0b2447;
-    --color-bg: #04152d;
+    --color-bg: #04152d; */
+
+    --color-text: #e1e6e9;
+    --color-text-black: #0e0e0e;
+    --color-primary: hsla(309, 76%, 18%, 0.5);
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #06252b;
+
+    --color-accent-light: #1d5d73;
+    --color-accent-soft: #4a6d7c;
+    --color-accent-hard: #6dbd12a8;
+    --color-text-light: #e1e6e9;
+    --color-complementary: #7a4b6e;
+    --color-accent-dark: #092d3e;
 
     /* Fonts */
 

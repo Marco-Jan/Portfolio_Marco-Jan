@@ -26,77 +26,57 @@
     z-index: 1;
 }
 
-.skills {
-    width: 45%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 11px;
-}
-
-.skill {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 11px;
-}
-
-.skillImageContainer {
-    background-color: var(--color-secondary);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 120px;
-    height: 120px;
-    z-index: 1;
-}
-
-.skillImageContainer img {
-    max-width: 70px;
-    z-index: 1;
-}
-
-.skill p {
-    font-size: 25px;
-    font-family: var(--font-roboto);
-    font-weight: 500;
-    z-index: 1;
-}
-
 .history {
-    width: 45%;
     display: flex;
-    flex-direction: column;
+    width: 45%;
     gap: 40px;
 }
 
 .historyItem {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    max-width: 450px;
+    min-width: 350px;
+    height: 500px;
     gap: 17px;
     background: #19376d;
-    background: linear-gradient(90deg, #19376d 0%, rgba(25, 25, 109, 0)100%);
+    /* background: linear-gradient(90deg, #19376d 0%, rgba(25, 25, 109, 0)100%); */
     border-radius: 10px;
     padding: 24px;
     z-index: 1;
 }
 
-.historyItem img {
-    width: 140px;
+.companyImgContainer {
+    display: flex;
+    justify-items: center;
+    
+}
+.historyImg {
+    width: 200px;
 }
 
+
+
+
+
 .historyItemDetails {
+    
     font-family: var(--font-roboto);
 }
 
 .historyItemDetails h3 {
     font-size: 30px;
     font-weight: 500;
+    text-align:-webkit-center;
+    
 }
 
 .historyItemDetails p {
     font-size: 20px;
     font-weight: 300;
+    text-decoration: overline;
+    text-align:-webkit-center;
 }
 
 .historyItemDetails ul {
@@ -106,19 +86,22 @@
     list-style-type: disc;
     margin-left: 17px;
 }
-.topBlur {
-    position: absolute;
-    width: 50vw;
-    height: 50vw;
-    min-width: 320px;
-    top: 2028px;
-    /* left: 10vw; */
-    border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
-    /* background: rgba(109, 70, 25, 0.7); */
-    filter: blur(100px);
-    z-index: 0;
+
+.experience {
+    font-size: 10px;
 }
+
+.glassEffect {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 10%);
+    border-radius: 10px;
+    border: 1.2px solid rgba(36, 36, 36, 0.18);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 
 @media screen and (max-width: 830px) {
     .content {
@@ -137,10 +120,7 @@
         width: 100%;
         gap: 9px;
     }
-    .topBlur {
-        top: 1528px;
-
-    }
+ 
 }
 
 @media screen and (max-width: 420px) {
@@ -150,4 +130,5 @@
         flex-direction: column;
         
     }
+
 }

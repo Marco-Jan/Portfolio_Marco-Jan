@@ -1,0 +1,14 @@
+.lightEffect {
+    position: fixed;
+    width: 200px; /* Größe des Lichteffekts, größer gemacht */
+    height: 200px; /* Größe des Lichteffekts, größer gemacht */
+    border-radius: 50%;
+    background: var(--color-accent-hard); /* Farbe des Lichteffekts */
+    filter: blur(150px); /* Stärkerer Blur-Effekt für intensiveren Spot */
+    pointer-events: none; /* Verhindert Interaktionen */
+    mix-blend-mode: screen; /* Mischmodus für den Lichteffekt */
+    transform: translate(-50%, -50%); /* Positionierung */
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.7); /* Weicherer und größerer Schatten für den Effekt */
+    z-index: 10;
+    transition: transform 0.1s ease-out; /* Sanfter Übergang für Transform */
+}

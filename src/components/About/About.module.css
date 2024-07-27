@@ -89,15 +89,17 @@
 }
 
 .glassEffect {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 10%);
-    border-radius: 10px;
-    border: 1.2px solid rgba(36, 36, 36, 0.18);
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    background: rgba(255, 255, 255, 0.1); /* Einfaches transparentes Weiß */
+    border-radius: 15px; /* Etwas größerer Radius für weichere Ecken */
+    border: 1px solid rgba(255, 255, 255, 0.25); /* Hellerer Rand für besseren Kontrast */
+    -webkit-backdrop-filter: blur(10px); /* Stärkere Unschärfe für mehr Glass-Effekt */
+    backdrop-filter: blur(10px); /* Stärkere Unschärfe für mehr Glass-Effekt */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sanfter Schatten für ein subtileres Aussehen */
     padding: 20px;
     margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Weicherer Rand */
 }
+
 
 @media screen and (max-width: 1200px) {
     .aboutItems {
@@ -164,7 +166,7 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 355px) {
     .container {
         background-color: transparent;
         padding: 0 0;
@@ -193,7 +195,7 @@
 
     .technoImg {
         margin: 0 10px;
-        width: 30%;
+       
         z-index: 1;
     }
 }

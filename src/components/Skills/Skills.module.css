@@ -73,3 +73,42 @@
     height: 10px;
     margin: 3px;
 }
+
+
+@media screen and (max-width: 410px) {
+    .skillImageContainer {
+        background-color: var(--color-accent-soft);
+        box-sizing: border-box;
+        border-radius: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        margin: 0 8px ;
+    }
+    
+    .skillImageContainer img {
+        width: 50px;
+        z-index: 1;
+    }
+    
+    .skill p {
+        font-size: 25px;
+        font-family: var(--font-roboto);
+        font-weight: 500;
+        z-index: 1;
+    }
+    
+    .skillPoints {
+        justify-content: center;
+        align-items: flex-end;
+        padding-top: 5px;
+    }
+    .star {
+        height: 10px;
+        margin: 3px;
+    }
+}

@@ -8,6 +8,7 @@ import { Projects } from "./components/Projects/Projects"
 import { Contact } from "./components/Contact/Contact";
 // import { AnimatedBackground } from "./components/AnimatedBackground/AnimatedBackground";
 import { SubFooter } from "./components/SubFooter/SubFooter";
+import { ScrollUpButton } from "./components/ScrollUpBtn/ScrollUpBtn";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <ScrollUpButton />
       <Contact />
       <SubFooter />
     </div>;

@@ -1,0 +1,20 @@
+@import '../../vars.css';
+
+.scrollBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.scrollUpBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 32px;
+    height: 50px;
+    width: 50px;
+    background-color: var(--color-primary);
+    cursor: pointer;  
+}

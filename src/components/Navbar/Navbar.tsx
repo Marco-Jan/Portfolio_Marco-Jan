@@ -2,7 +2,7 @@
 import styles from './Navbar.module.css';
 import { useState } from 'react';
 import { getImageUrl } from '../../utils.ts';
-import { Login } from "../Login/Login.tsx";
+// import { Login } from "../Login/Login.tsx";
 
 
 export const Navbar = () => {

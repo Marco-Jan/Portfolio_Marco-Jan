@@ -3,7 +3,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(90deg, #0b2447 0%, rgba(25, 25, 109, 0)100%);
+    /* background: linear-gradient(90deg, #0b2447 0%, rgba(25, 25, 109, 0)100%); */
     border-radius: 15px;
     margin-top: 129px;
     margin-left: 10%;
@@ -35,8 +35,8 @@
     color: var(--color-text);
     display: flex;
     margin: 24px 10%;
-    gap: 24px;
-    
+    gap: 50px;
+
 }
 
 .aboutItem {
@@ -45,12 +45,12 @@
     justify-content: center;
     border-radius: 20px;
     list-style: none;
-    width: 250px;
+    width: 350px;
     padding: 25px;
     background-size: 0 100%;
 }
 
-.aboutItem:hover{
+.aboutItem:hover {
     background-size: 100% 100%;
     transition: 0.4s;
     background-repeat: no-repeat;
@@ -69,29 +69,31 @@
     width: 60%;
     z-index: 1;
 }
+
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .glassEffect {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 10%);
     border-radius: 10px;
     border: 1.2px solid rgba(36, 36, 36, 0.18);
     -webkit-backdrop-filter: blur(8px);
-            backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
     padding: 20px;
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     .aboutItems {
         flex-direction: column;
     }
 
-    .aboutItem {      
+    .aboutItem {
         width: 450px;
         z-index: 1;
     }
@@ -100,9 +102,10 @@
 @media screen and (max-width: 830px) {
     .container {
         background-color: transparent;
-        padding:0 0;
-        
+        padding: 0 0;
+
     }
+
     .title {
         margin-left: 20px;
     }
@@ -121,7 +124,7 @@
     }
 
     .aboutItem {
-       
+
         width: 400px;
         height: 300px;
         padding: 0 10%;
@@ -133,7 +136,7 @@
         font-size: 25px;
         font-weight: 600;
     }
-    
+
     .aboutItem p {
         font-size: 15px;
     }
@@ -144,15 +147,44 @@
         z-index: 1;
     }
 
-    
+
 }
+
+@media screen and (max-width: 560px) {
+
+    .aboutItem {
+
+        width: 350px;
+        height: 300px;
+        padding: 0 10%;
+        z-index: 1;
+
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    .aboutItem {
+
+        width: 250px;
+        height: 300px;
+        padding: 0 10%;
+        z-index: 1;
+
+    }
+
+}
+
+
+
 
 
 @media screen and (max-width: 350px) {
     .container {
         background-color: transparent;
-        padding:0 0;
-        
+        padding: 0 0;
+
     }
 
     .content {
@@ -176,7 +208,7 @@
         font-size: 20px;
         font-weight: 600;
     }
-    
+
     .aboutItem p {
         font-size: 15px;
     }
@@ -186,5 +218,5 @@
         width: 30%;
         z-index: 1;
     }
-    
+
 }

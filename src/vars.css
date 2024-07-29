@@ -10,17 +10,31 @@
     --color-text: #e1e6e9;
     --color-text-black: #0e0e0e;
     --color-primary: hsla(309, 76%, 18%, 0.5);
-    --color-secondary: #19376d;
+    
     --color-dark: #0b2447;
+   
     /* --color-bg: #06252b; */
-    --color-bg: #06252b;
+    /* --color-bg: #16879D; */
+    
+;
 
     --color-accent-light: #1d5d73;
-    --color-accent-soft: rgb(74, 109, 124);
-    --color-accent-hard: #6dbd12a8;
+    /* --color-accent-soft: #4a6d7c; */
+    
+    ;
+   
     --color-text-light: #e1e6e9;
     --color-complementary: #7a4b6e;
     --color-accent-dark: #092d3e;
+
+    /* neues Color Schema */
+
+    --color-bg: #2811A1;
+    --color-accent-soft: #A11143;
+    --color-accent-hard: #11A128;
+    --color-secondary: #8BA111; /* vl abändern*/ 
+
+
 
     /* Fonts */
 

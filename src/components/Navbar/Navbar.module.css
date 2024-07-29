@@ -35,7 +35,7 @@
     display: block;
 }
 
-.menuItems a::after {
+/* .menuItems a::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -51,7 +51,7 @@
 .menuItems a:hover::after {
     width: 100%;
     left: 0;
-}
+} */
 
 .menuBtn {
     display: none;

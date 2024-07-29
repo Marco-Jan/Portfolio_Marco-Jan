@@ -15,13 +15,13 @@
 .glassEffect {
     background: rgba(255, 255, 255, 0.1); /* Einfaches transparentes Weiß */
     border-radius: 15px; /* Etwas größerer Radius für weichere Ecken */
-    border: 1px solid rgba(255, 255, 255, 0.25); /* Hellerer Rand für besseren Kontrast */
+    border: 0.2px solid rgba(255, 255, 255, 0.25); /* Hellerer Rand für besseren Kontrast */
     -webkit-backdrop-filter: blur(10px); /* Stärkere Unschärfe für mehr Glass-Effekt */
     backdrop-filter: blur(10px); /* Stärkere Unschärfe für mehr Glass-Effekt */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sanfter Schatten für ein subtileres Aussehen */
     padding: 20px;
     margin-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Weicherer Rand */
+
 }
 
 .imageContainer {
@@ -30,7 +30,7 @@
 }
 
 .projectImg {
-    height: 250px;
+    width: -webkit-fill-available;
     margin-bottom: 26px;
 }
 

@@ -16,6 +16,8 @@ import { ScrollUpButton } from "./components/ScrollUpBtn/ScrollUpBtn";
 
 function App() {
 
+  
+
   return <div className={styles.App}>
     <AnimatedBackground />
    

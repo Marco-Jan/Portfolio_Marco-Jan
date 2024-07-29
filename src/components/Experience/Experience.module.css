@@ -94,7 +94,7 @@
     /* Einfaches transparentes Weiß */
     border-radius: 15px;
     /* Etwas größerer Radius für weichere Ecken */
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    border: 0.2px solid rgba(255, 255, 255, 0.25);
     /* Hellerer Rand für besseren Kontrast */
     -webkit-backdrop-filter: blur(10px);
     /* Stärkere Unschärfe für mehr Glass-Effekt */
@@ -104,7 +104,7 @@
     /* Sanfter Schatten für ein subtileres Aussehen */
     padding: 20px;
     margin-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+
     /* Weicherer Rand */
 }
 

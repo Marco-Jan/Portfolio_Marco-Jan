@@ -2,77 +2,105 @@
     {
         "title": "HTML",
         "imageSrc": "skills/html.png",
-        "skills": 4
+        "skills": 80,
+        "category": "frontend"
     },
     {
         "title": "CSS",
         "imageSrc": "skills/css.png",
-        "skills" : 4
+        "skills" : 80,
+        "category": "frontend"
+
     },
     {
         "title": "React",
         "imageSrc": "skills/React.png",
-        "skills" : 3
+        "skills" : 40,
+        "category": "frontend"
+
 
     },
     {
         "title": "Java-Script",
         "imageSrc": "skills/JavaScript.png",
-        "skills" : 4
+        "skills" : 40,
+        "category": "frontend"
+
 
     },
     {
         "title": "Typescript",
         "imageSrc": "skills/Typescript.png", 
-        "skills" : 3
+        "skills" : 40,
+        "category": "frontend"
+
 
     },
     {
         "title": "Node",
         "imageSrc": "skills/node-js.png",
-        "skills" : 3
+        "skills" : 30,
+        "category": "frontend"
+
 
     },
     {
         "title": "Phyton",
         "imageSrc": "skills/Python.png",
-        "skills" : 1
+        "skills" : 10,
+        "category": "backend"
+
 
     },
     {
         "title": "C-Sharp",
         "imageSrc": "skills/C_sharp.png",
-        "skills" : 2
+        "skills" : 40,
+        "category": "backend"
+
 
     },
     {
         "title": "PHP",
         "imageSrc": "skills/PHP.png",
-        "skills" : 3
+        "skills" : 70,
+        "category": "backend"
+
 
     },
     {
         "title": "SQL",
         "imageSrc": "skills/Sql.png",
-        "skills" : 3
+        "skills" : 60,
+        "category": "backend"
+
 
     },
     {
         "title": "Photoshop",
         "imageSrc": "skills/adobePs.png",
-        "skills" : 4
+        "skills" : 60,
+        "category": "uiDesign"
 
     },
     {
         "title": "Illustrator ",
         "imageSrc": "skills/adobeAi.png",
-        "skills" : 2
+        "skills" : 20,
+        "category": "uiDesign"
+
 
     },
     {
         "title": "After Effects",
         "imageSrc": "skills/adobeAe.png",
-        "skills" : 2
-
+        "skills" : 20,
+        "category": "uiDesign"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "skills/figma.png",
+        "skills" : 40,
+        "category": "uiDesign"
     }
 ]

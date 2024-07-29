@@ -31,6 +31,7 @@ export const ProjectCard = ({ title, imageSrc, description, skills, demo, source
                     )
                 })}
             </ul>
+            <hr className={styles.hr}></hr>
             <div className={styles.links}>
                 <a href={demo} className={styles.link}>Vercel PWA</a>
                 <a href={source} className={styles.link}>Github</a>

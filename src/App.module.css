@@ -9,21 +9,17 @@
 
 .topOneBlur {
     position: absolute;
-    left: 5%;
-    top: 0;
-    width: 150px;
-    height: 200vh;
-    min-width: 250px;
-    border-radius: 50%;
-    background: radial-gradient(circle at top center, var(--color-accent-hard), transparent 70%),
-                radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.5) 0%, transparent 70%);
-    box-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
-    filter: blur(80px) brightness(1.8);
-    animation: pulsate 10s ease-in-out infinite;
-    z-index: -1;
-    pointer-events: none;
+    right: -20%;
+    /* top: 1000px; */
+    width: 1200px;
+    height: 50vh; 
+    min-width: 10px;
+    border-radius: 50%; 
+    background: radial-gradient(circle at top center, var(--color-accent-hard), transparent 70%);
+    filter: blur(80px);
+    z-index: 0;
+    pointer-events: none; 
 }
-
 
 .topTwoBlur {
     position: absolute;
@@ -34,7 +30,7 @@
     min-width: 150px;
     border-radius: 50%;
     background: radial-gradient(circle at top center, var(--color-accent-hard), var(--color-accent-hard) 100%);
-    filter: blur(130px) brightness(1);
+    filter: blur(130px);
     z-index: 0;
     pointer-events: none; 
 }

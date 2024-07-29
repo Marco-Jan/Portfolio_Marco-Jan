@@ -236,20 +236,11 @@
     }
 }
 
-@media screen and (max-width: 470px) {
-    .aboutItem {
-        width: 90%;
-        height: auto;
-        padding: 0 10%;
-        z-index: 1;
-    }
-}
-
-
-@media screen and (max-width: 458px) {
+@media screen and (max-width: 515px) {
     .title {
         font-size: 12px;
     }
+
     .skill {
         gap: 8px;
     }
@@ -266,7 +257,7 @@
     .skill p {
         font-size: 14px;
         margin-bottom: 5px;
-        
+
     }
 
     .progressBar {
@@ -275,6 +266,18 @@
         appearance: none;
     }
 }
+
+@media screen and (max-width: 470px) {
+    .aboutItem {
+        width: 90%;
+        height: auto;
+        padding: 0 10%;
+        z-index: 1;
+    }
+}
+
+
+
 
 
 

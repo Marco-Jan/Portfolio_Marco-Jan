@@ -178,14 +178,11 @@
 }
 
 .progressBar::-webkit-progress-value {
-    background-color: #4caf50;
+    background-color: var(--color-accent-hard);
     border-radius: 10px;
 }
 
-.progressBar::-moz-progress-bar {
-    background-color: #4caf50;
-    border-radius: 10px;
-}
+
 
 /* SKILL end */
 

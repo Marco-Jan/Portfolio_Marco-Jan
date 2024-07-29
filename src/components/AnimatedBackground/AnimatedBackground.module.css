@@ -9,6 +9,6 @@
     mix-blend-mode: screen; /* Mischmodus für den Lichteffekt */
     transform: translate(-50%, -50%); /* Positionierung */
     box-shadow: 0 0 100px rgba(255, 255, 255, 0.7); /* Weicherer und größerer Schatten für den Effekt */
-    z-index: 10;
+    z-index: 0;
     transition: transform 0.1s ease-out; /* Sanfter Übergang für Transform */
 }

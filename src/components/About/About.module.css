@@ -55,7 +55,7 @@
 .aboutItem h3 {
     font-size: 35px;
     font-weight: 600;
-    text-align:-webkit-center;
+    text-align: -webkit-center;
     text-decoration: overline;
     margin: 20px 0;
 }
@@ -66,7 +66,7 @@
     margin-bottom: 20px;
 }
 
-.technoImgContainer{
+.technoImgContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,16 +88,92 @@
     align-items: center;
 }
 
+
+/* Skill Section */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+    padding: 10%;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+.skillImageContainer {
+    background-color: rgba(74, 109, 124, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    margin: 0 10px;
+}
+
+.skillImageContainer img {
+    max-width: 60%;
+    z-index: 1;
+}
+
+.skill p {
+    font-size: 15px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    z-index: 1;
+}
+
+.progressBar {
+    width: 80px;
+    height: 10px;
+    appearance: none;
+}
+
+.progressBar::-webkit-progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.progressBar::-webkit-progress-value {
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+
+.progressBar::-moz-progress-bar {
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+
+
+
+
+/* SKILL end */
+
+
 .glassEffect {
-    background: rgba(255, 255, 255, 0.1); /* Einfaches transparentes Weiß */
-    border-radius: 15px; /* Etwas größerer Radius für weichere Ecken */
-    border: 1px solid rgba(255, 255, 255, 0.25); /* Hellerer Rand für besseren Kontrast */
-    -webkit-backdrop-filter: blur(10px); /* Stärkere Unschärfe für mehr Glass-Effekt */
-    backdrop-filter: blur(10px); /* Stärkere Unschärfe für mehr Glass-Effekt */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sanfter Schatten für ein subtileres Aussehen */
+    background: rgba(255, 255, 255, 0.1);
+    /* Einfaches transparentes Weiß */
+    border-radius: 15px;
+    /* Etwas größerer Radius für weichere Ecken */
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    /* Hellerer Rand für besseren Kontrast */
+    -webkit-backdrop-filter: blur(10px);
+    /* Stärkere Unschärfe für mehr Glass-Effekt */
+    backdrop-filter: blur(10px);
+    /* Stärkere Unschärfe für mehr Glass-Effekt */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Sanfter Schatten für ein subtileres Aussehen */
     padding: 20px;
     margin-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Weicherer Rand */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Weicherer Rand */
 }
 
 
@@ -112,6 +188,9 @@
         z-index: 1;
     }
 }
+
+
+
 
 @media screen and (max-width: 830px) {
     .container {
@@ -166,7 +245,40 @@
     }
 }
 
-@media screen and (max-width: 355px) {
+
+@media screen and (max-width: 458px) {
+    .title {
+        font-size: 12px;
+    }
+    .skill {
+        gap: 8px;
+    }
+
+    .skillImageContainer {
+        width: 40px;
+        height: 40px;
+    }
+
+    .skillImageContainer img {
+        max-width: 40%;
+    }
+
+    .skill p {
+        font-size: 14px;
+        margin-bottom: 5px;
+        
+    }
+
+    .progressBar {
+        width: 50px;
+        height: 8px;
+        appearance: none;
+    }
+}
+
+
+
+@media screen and (max-width: 370px) {
     .container {
         background-color: transparent;
         padding: 0 0;
@@ -195,7 +307,11 @@
 
     .technoImg {
         margin: 0 10px;
-       
+
         z-index: 1;
+    }
+
+    .skill p {
+        font-size: 10px;
     }
 }

@@ -9,7 +9,7 @@ import { Contact } from "./components/Contact/Contact";
 import { AnimatedBackground } from "./components/AnimatedBackground/AnimatedBackground";
 import { SubFooter } from "./components/SubFooter/SubFooter";
 import { ScrollUpButton } from "./components/ScrollUpBtn/ScrollUpBtn";
-import { Skills } from './components/Skills/Skills';
+
 
 
 
@@ -18,13 +18,12 @@ function App() {
 
   return <div className={styles.App}>
     <AnimatedBackground />
-    {/* <div className={styles.topOneBlur} /> */}
+    <div className={styles.topOneBlur} />
     <div className={styles.topTwoBlur} />
 
     <Navbar />
     <Hero />
     <About />
-    <Skills />
     <Experience />
     <Projects />
     <ScrollUpButton />

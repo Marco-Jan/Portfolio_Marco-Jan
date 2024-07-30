@@ -22,7 +22,7 @@ function App() {
     {/* <AnimatedBackground /> */}
    
     {/* <div className={styles.topOneBlur} /> */}
-    <div className={styles.topTwoBlur} />
+    {/* <div className={styles.topTwoBlur} /> */}
 
     <Navbar />
     <Hero />

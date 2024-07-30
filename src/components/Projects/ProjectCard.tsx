@@ -4,11 +4,11 @@ import styles from './ProjectCard.module.css';
 
 interface ProjectCardProps {
     title: string;
-    description: string;
-    skills: string[];
-    demo: string;
     source: string;
+    skills: string[];
     imageSrc: string;
+    description: string;
+    demo: string; 
 }
 
 export const ProjectCard = ({ title, imageSrc,description, skills, demo, source }: ProjectCardProps) => {

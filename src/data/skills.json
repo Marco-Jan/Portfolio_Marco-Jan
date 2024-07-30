@@ -71,7 +71,7 @@
     {
         "title": "SQL",
         "imageSrc": "skills/Sql.png",
-        "skills" : 60,
+        "skills" : 40,
         "category": "backend"
 
 
@@ -102,5 +102,11 @@
         "imageSrc": "skills/figma.png",
         "skills" : 40,
         "category": "uiDesign"
+    },
+    {
+        "title": "Firebase",
+        "imageSrc": "skills/firebase.png",
+        "skills": 40,
+        "category": "backend"
     }
 ]

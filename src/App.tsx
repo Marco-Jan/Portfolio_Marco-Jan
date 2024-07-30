@@ -21,7 +21,7 @@ function App() {
   return <div className={styles.App}>
     {/* <AnimatedBackground /> */}
    
-    {/* <div className={styles.topOneBlur} /> */}
+    <div className={styles.topOneBlur} />
     {/* <div className={styles.topTwoBlur} /> */}
 
     <Navbar />

@@ -60,7 +60,7 @@
 
 
 .historyItemDetails {
-
+    
     font-family: var(--font-roboto);
 }
 
@@ -68,6 +68,7 @@
     font-size: 30px;
     font-weight: 500;
     text-align: -webkit-center;
+    margin-bottom: 10px;
 
 }
 
@@ -76,6 +77,7 @@
     font-weight: 300;
     text-decoration: overline;
     text-align: -webkit-center;
+ 
 }
 
 .historyItemDetails ul {

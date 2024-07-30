@@ -1,44 +1,61 @@
-
 import { getImageUrl } from '../../utils';
+import { useRef } from 'react';
 import styles from './ProjectCard.module.css';
-
 
 interface ProjectCardProps {
     title: string;
-    imageSrc: string;
     description: string;
     skills: string[];
     demo: string;
     source: string;
+    imageSrc: string;
 }
 
-export const ProjectCard = ({ title, imageSrc, description, skills, demo, source }: ProjectCardProps) => {
+export const ProjectCard = ({ title, imageSrc,description, skills, demo, source }: ProjectCardProps) => {
+    const videoRef = useRef<HTMLVideoElement>(null);
+
+    const handleMouseEnter = () => {
+        if (videoRef.current) {
+            videoRef.current.play();
+        }
+    };
+
+    const handleMouseLeave = () => {
+        if (videoRef.current) {
+            videoRef.current.pause();
+            videoRef.current.currentTime = 0;
+        }
+    };
+
     return (
-        <div className={`${styles.container} ${styles.glassEffect}`}>
-            <div className={styles.imageContainer}>
-                <img
+        <div
+            className={`${styles.container} ${styles.glassEffect}`}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+        >
+            <div className={styles.mediaContainer}>
+                <video
+                    ref={videoRef}
                     src={getImageUrl(imageSrc)}
-                    alt={`Image of ${title}`}
-                    className={styles.projectImg}
-                />
-                {/* <video src="../../assets/projects/teamTosspPreview.mp4" controls poster="vorschaubild.jpg">
-                Dies Video kann in Ihrem Browser nicht wiedergegeben werden.
-                    Eine Download-Version steht unter <a href="URL">Link-Addresse</a> zum Abruf bereit.
-                </video> */}
-            </div>
-            <h3 className={styles.title}>{title}</h3>
-            <p className={styles.description}>{description}</p>
-            <ul className={styles.skills}>
-                {skills.map((skill, id) => {
-                    return (
-                        <li key={id} className={styles.skill}>{skill}</li>
-                    )
-                })}
-            </ul>
-            <hr className={styles.hr}></hr>
-            <div className={styles.links}>
-                <a href={demo} className={styles.link}>Vercel PWA</a>
-                <a href={source} className={styles.link}>Github</a>
+                    className={styles.projectVideo}
+                    muted
+                    loop
+                ></video>
+                <div className={styles.overlay}>
+                    <h3 className={styles.title}>{title}</h3>
+                    <p className={styles.description}>{description}</p>
+                    <ul className={styles.skills}>
+                        {/* <h3 className={styles.description}>Technologie</h3> */}
+                        {skills.map((skill, id) => (
+                            <li key={id} className={styles.skill}>{skill}</li>
+                        ))}
+                    </ul>
+                    <hr className={styles.hr} />
+                    <div className={styles.links}>
+                        <a href={demo} className={styles.link}>Vercel PWA</a>
+                        <a href={source} className={styles.link}>Github</a>
+                    </div>
+                </div>
             </div>
         </div>
     );

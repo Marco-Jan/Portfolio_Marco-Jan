@@ -1,5 +1,3 @@
-@import "../../vars.css";
-
 .container {
     display: flex;
     flex-direction: column;
@@ -9,40 +7,71 @@
     padding: 18px;
     max-width: 435px;
     z-index: 10;
-
+    position: relative;
+    overflow: hidden;
 }
 
 .glassEffect {
-    background: rgba(255, 255, 255, 0.1); /* Einfaches transparentes Weiß */
-    border-radius: 15px; /* Etwas größerer Radius für weichere Ecken */
-    border: 0.2px solid rgba(255, 255, 255, 0.25); /* Hellerer Rand für besseren Kontrast */
-    -webkit-backdrop-filter: blur(10px); /* Stärkere Unschärfe für mehr Glass-Effekt */
-    backdrop-filter: blur(10px); /* Stärkere Unschärfe für mehr Glass-Effekt */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sanfter Schatten für ein subtileres Aussehen */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    border: 0.2px solid rgba(255, 255, 255, 0.25);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 20px;
-
 }
 
-.imageContainer {
+.mediaContainer {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
 }
 
-.projectImg {
-    width: -webkit-fill-available;
-    margin-bottom: 26px;
+.projectVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+}
+
+.mediaContainer:hover .projectVideo {
+    opacity: 1;
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+    padding: 20px ;
+    background: rgba(0, 0, 0, 0.7); /* Optional: adds a semi-transparent background to text */
+    border-radius: 10px;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .title {
     font-size: 25px;
     font-weight: 700;
-    
+    color: var(--color-button-secondary);
+    margin-top: 18px;
 }
 
 .description {
     margin-top: 6px;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -57,16 +86,15 @@
 }
 
 .skill {
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight:300;
     border-radius: 100px;
-    background: var(--color-accent-hard);
-    padding: 2px 22px;
+    background: var(--color-button-primary);
+    padding: 2px 14px;
 }
 
 .links {
     width: 100%;
-    margin-top: 26px;
     display: flex;
     justify-content: space-around;
 }
@@ -74,18 +102,17 @@
 .link {
     text-decoration: none;
     color: var(--color-text);
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
     border-radius: 100px;
-    background: var(--color-accent-soft);
+    background: var(--color-button-secondary);
     padding: 1px 22px;
+    margin-bottom: 24px;
 }
 
-.hr{
+.hr {
     margin: 15px;
 }
-
-
 
 @media screen and (max-width: 830px) {
     .container {
@@ -107,9 +134,8 @@
     }
     .title {
         text-align: center;
-        
     }
-    
+
     .description {
         margin-top: 6px;
         font-size: 25px;
@@ -133,7 +159,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        
     }
 
     .link {
@@ -141,6 +166,4 @@
         padding: 0 14px;
         margin-bottom: 20px;
     }
-
-    
 }

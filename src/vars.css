@@ -29,12 +29,15 @@
 
     /* neues Color Schema */
 
-    --color-bg: #2811A1;
+    /* --color-bg: #2811A1;
     --color-accent-soft: #A11143;
     --color-accent-hard: #11A128;
     --color-secondary: #8BA111; /* vl abändern*/ 
 
-
+    --color-bg: #003366; /* Background*/
+    --color-button-primary: #ff0080a9; /* Button primary */
+    --color-button-secondary: #11A128; /* Button seconday*/
+    --color-accent-soft: #8BA111; /* vl abändern*/ 
 
     /* Fonts */
 

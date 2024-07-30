@@ -40,6 +40,7 @@ export const ProjectCard = ({ title, imageSrc,description, skills, demo, source 
                     className={styles.projectVideo}
                     muted
                     loop
+                    playsInline
                 ></video>
                 <div className={styles.overlay}>
                     <h3 className={styles.title}>{title}</h3>

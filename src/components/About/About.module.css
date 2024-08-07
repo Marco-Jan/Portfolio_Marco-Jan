@@ -161,7 +161,7 @@
 
 .skillsBtn {
     text-decoration: none;
-    background-color: var(--color-button-primary);
+    background-color: var(--color-button-secondary);
     color: var(--color-text);
     border-radius: 90px; 
     font-size: 22px; 

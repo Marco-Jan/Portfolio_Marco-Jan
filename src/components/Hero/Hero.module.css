@@ -28,6 +28,7 @@
 
 .description {
     font-size: 30px;
+    height: 120px;
     font-family: var(--font-robot);
     margin-bottom: 52px;
 }
@@ -42,6 +43,7 @@
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25)
 }
+
 .heroImgContainer{
     width: 500px;
     
@@ -51,7 +53,6 @@
     width: 50%;
     z-index: 1;
     border-radius: 10%;
-
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;

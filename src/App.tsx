@@ -12,8 +12,6 @@ import { ScrollUpButton } from "./components/ScrollUpBtn/ScrollUpBtn";
 
 
 
-
-
 function App() {
 
   

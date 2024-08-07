@@ -26,7 +26,7 @@ export const About = () => {
                                 <h3>Frontend Developer</h3>
                                 <p>Ich bin Frontend-Entwickler mit Erfahrung im Erstellen von responsiven und optimierten Webseiten</p>
                             </div>
-                            <button className={styles.skillsBtn} onClick={() => setShowFrontend(!showFrontend)}>{showFrontend ? 'X' : 'Skills'}</button>
+                            <button className={styles.skillsBtn} onClick={() => setShowFrontend(!showFrontend)}>{showFrontend ? 'X' : 'Talent-Arsenal'}</button>
                             <div className={`${styles.skills} ${showFrontend ? styles.showFrontend : ''}`}>
                                 {frontendSkills.map((skill, id) => (
                                     <div key={id} className={styles.skill}>
@@ -53,7 +53,7 @@ export const About = () => {
                                 <h3>Backend Developer</h3>
                                 <p>Ich bin Backend-Entwickler mit fundierten Kenntnissen in der Entwicklung skalierbarer und sicherer Serveranwendungen</p>
                             </div>
-                            <button className={styles.skillsBtn} onClick={() => setShowBackend(!showBackend)}>{ showBackend ? 'X' : 'Skills'}</button>
+                            <button className={styles.skillsBtn} onClick={() => setShowBackend(!showBackend)}>{ showBackend ? 'X' : 'Talent-Arsenal'}</button>
                             <div className={`${styles.skills} ${showBackend ? styles.showBackend : ''}`}>
                                 {backendSkills.map((skill, id) => (
                                     <div key={id} className={styles.skill}>
@@ -80,7 +80,7 @@ export const About = () => {
                                 <h3>UI Design</h3>
                                 <p>Ich bin UI-Designer mit einem Auge für detailverliebtes Design und nutzerfreundliche Schnittstellen</p>
                             </div>
-                            <button className={styles.skillsBtn} onClick={() => setShowUiDesign(!showUiDesign)}>{ showUiDesign ? 'X' : 'Skills'}</button>
+                            <button className={styles.skillsBtn} onClick={() => setShowUiDesign(!showUiDesign)}>{ showUiDesign ? 'X' : 'Talent-Arsenal'}</button>
                             <div className={`${styles.skills} ${showUiDesign ? styles.showUiDesign : ''}`}>
                                 {uiDesignSkills.map((skill, id) => (
                                     <div key={id} className={styles.skill}>

@@ -15,7 +15,7 @@ export const Hero = () => {
                     "Ich spezialisiere mich auf die Erstellung interaktiver und ansprechender Webanwendungen.",
                     "Schauen Sie sich gerne mein Portfolio an und nehmen Sie Kontakt mit mir auf!"
                 ],
-                typeSpeed: 50,
+                typeSpeed: 24,
                 backSpeed: 30,
                 backDelay: 1000,
                 startDelay: 500,
@@ -33,7 +33,7 @@ export const Hero = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>Hi I'm Marco</h1>
+                <h1 className={styles.title}>Hallo ich bin Marco</h1>
                 <p className={styles.description}>
                     <span ref={typedRef}></span>
                 </p>

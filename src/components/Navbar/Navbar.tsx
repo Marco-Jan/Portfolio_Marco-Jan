@@ -21,10 +21,10 @@ export const Navbar = () => {
                 {/* Menuopener */}
 
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen} ${styles.glassEffect}`} onClick={() => setMenuOpen(false)} >
-                    <li><a href="#about">Insider-Infos</a></li>
-                    <li><a href="#experience">Erlebnistour</a></li>
-                    <li><a href="#projects">Bastel-Boulevard</a></li>
-                    <li><a href="#contact">Plauder-Ecke</a></li>
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#experience">Erfahrungen</a></li>
+                    <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
                  
                 </ul>
             </div>

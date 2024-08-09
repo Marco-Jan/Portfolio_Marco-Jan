@@ -11,9 +11,9 @@ export const Hero = () => {
         if (typedRef.current) {
             const options = {
                 strings: [
-                    "Ich bin Junior-Entwickler mit Erfahrung in der Nutzung von React, NodeJS und weiteren Technologien.",
-                    "Ich spezialisiere mich auf die Erstellung interaktiver und ansprechender Webanwendungen.",
-                    "Schauen Sie sich gerne mein Portfolio an und nehmen Sie Kontakt mit mir auf!"
+                    "Hallo! Ich freue mich, dass Sie sich für mein Portfolio interessieren.",
+                    "Kontaktieren Sie mich gerne, wenn Sie Fragen haben oder mehr erfahren möchten!"
+
                 ],
                 typeSpeed: 24,
                 backSpeed: 30,
@@ -39,7 +39,7 @@ export const Hero = () => {
                 </p>
                 <a href="mailto:marco.jan@gmx.de" className={styles.contactBtn}>Contact Me</a>
             </div>
-            <img src={getImageUrl("hero/hero2.png")} alt="Profilbild Marco Jan" className={styles.heroImg} />
+            <img src={getImageUrl("hero/hero4.png")} alt="Profilbild Marco Jan" className={styles.heroImg} />
         </section>
     );
 };

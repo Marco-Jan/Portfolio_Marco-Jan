@@ -2,13 +2,13 @@
     {
         "title": "HTML",
         "imageSrc": "skills/html.png",
-        "skills": 80,
+        "skills": 60,
         "category": "frontend"
     },
     {
         "title": "CSS",
         "imageSrc": "skills/css.png",
-        "skills" : 80,
+        "skills" : 60,
         "category": "frontend"
 
     },
@@ -23,7 +23,7 @@
     {
         "title": "Java-Script",
         "imageSrc": "skills/JavaScript.png",
-        "skills" : 40,
+        "skills" : 50,
         "category": "frontend"
 
 
@@ -31,15 +31,7 @@
     {
         "title": "Typescript",
         "imageSrc": "skills/Typescript.png", 
-        "skills" : 40,
-        "category": "frontend"
-
-
-    },
-    {
-        "title": "Node",
-        "imageSrc": "skills/node-js.png",
-        "skills" : 30,
+        "skills" : 50,
         "category": "frontend"
 
 
@@ -47,7 +39,7 @@
     {
         "title": "Phyton",
         "imageSrc": "skills/Python.png",
-        "skills" : 10,
+        "skills" : 20,
         "category": "backend"
 
 
@@ -55,15 +47,13 @@
     {
         "title": "C-Sharp",
         "imageSrc": "skills/C_sharp.png",
-        "skills" : 40,
+        "skills" : 20,
         "category": "backend"
-
-
     },
     {
         "title": "PHP",
         "imageSrc": "skills/PHP.png",
-        "skills" : 70,
+        "skills" : 40,
         "category": "backend"
 
 
@@ -79,7 +69,7 @@
     {
         "title": "Photoshop",
         "imageSrc": "skills/adobePs.png",
-        "skills" : 60,
+        "skills" : 70,
         "category": "uiDesign"
 
     },

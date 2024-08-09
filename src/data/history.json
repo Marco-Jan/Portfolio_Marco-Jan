@@ -14,5 +14,24 @@
         "endDate": "Present",
         "experience": ["Worked with Adobe Photoshop", "Illustrator","After Effect"],
         "imageSrc": "history/Freundentanz_glow.png"
+    },
+    
+    {
+        "role" : "Software Developer",
+        "organisation": "iteas IT SERVICES | IT Entwicklung Adjustierung Service",
+        "startDate": "August-2023",
+        "endDate": "September-2023",
+        "experience": ["Worked with PHP","SQL","Wordpress"],
+        "imageSrc": "history/Freundentanz_glow.png"
     }
+    ,
+    {
+        "role" : "Software Developer",
+        "organisation": "VIVAFA",
+        "startDate": "April-2024",
+        "endDate": "Mai-2024",
+        "experience": ["Worked with Javascript","HTML","CSS", "Figma"],
+        "imageSrc": "history/edvgraz2.png"
+    }
+    
 ]

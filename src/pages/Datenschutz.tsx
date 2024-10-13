@@ -1,4 +1,3 @@
-
 import styles from './Datenschutz.module.css';
 
 function Datenschutz() {

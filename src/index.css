@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('../assets/font/Outfit/static/Outfit-Regular.ttf') format('truetype');  
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/font/Outfit/static/Outfit-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,6 +23,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+
 
 
 .glassEffect {

@@ -33,5 +33,9 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "typescript": "^5.2.2",
     "vite": "^5.3.4"
-  }
+  },
+  "description": "//TODO: Admin Dashboard !!!!!!!! meida query in css  einrichten und schaun wie das neue media query funktioniert!!!!",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

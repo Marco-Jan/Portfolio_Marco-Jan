@@ -46,12 +46,18 @@
     padding: 22.5px; 
     background-size: 0 100%;
     box-sizing: border-box;
+    /* cursor:crosshair;  */
+    /* transition: transform 1500ms; */
+    
+
+
 }
 
 .aboutItem:hover {
     background-size: 100% 100%;
     transition: 0.4s;
     background-repeat: no-repeat;
+    /* transform: rotateY(180deg); */
 }
 
 .aboutItemtext {

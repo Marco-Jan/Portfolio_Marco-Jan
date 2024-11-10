@@ -40,7 +40,7 @@ export const Hero = () => {
                 </p>
                 <a href="mailto:marco.jan@gmx.de" className={styles.contactBtn}>Contact Me</a>
             </div>
-            <img src={getImageUrl("hero/hero_avatar.png")} alt="Profilbild_Marco_Jan" className={styles.heroImg} />
+            <img src={getImageUrl("hero/hero2.png")} alt="Profilbild_Marco_Jan" className={styles.heroImg} />
         </section>
     );
 };

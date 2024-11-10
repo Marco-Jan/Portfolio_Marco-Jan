@@ -69,7 +69,7 @@
     .menuItems {
         display: flex; /* Start als flex */
         flex-direction: column;
-        align-items: flex-end;
+        /* align-items: flex-end; */
         gap: 13px;
         border-radius: 10px;
         background: rgb(25, 55, 109);

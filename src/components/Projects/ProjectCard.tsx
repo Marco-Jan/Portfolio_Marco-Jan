@@ -21,14 +21,13 @@ export const ProjectCard = ({ title, imageSrc, videoSrc, description, skills, de
     useEffect(() => {
         // Prüfen, ob der Benutzer Microsoft Edge verwendet
         const userAgent = navigator.userAgent;
+        console.log(userAgent, "agent");
         
         if (userAgent.includes("Edg/")) {
             setIsEdge(true);
         }
-
-        if(isEdge){
-            console.log("Edge browser");
-            
+        if(userAgent.includes("Moz/")) {
+            setIsEdge(true);
         }
     }, []);
 

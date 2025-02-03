@@ -47,7 +47,7 @@
 .scrollUpBtn:hover {
     transform: scale(1.1);
     background-color: var(--color-button-secondary);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 /* .scrollUpBtn:active {

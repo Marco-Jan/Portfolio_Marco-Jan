@@ -7,7 +7,7 @@
     --color-dark: #0b2447;
     --color-bg: #04152d; */
 
-    --color-text: #e1e6e9;
+    --color-text: #272f33; /*#e1e6e9 */
     --color-text-black: #0e0e0e;
     --color-primary: hsla(309, 76%, 18%, 0.5);
     
@@ -23,7 +23,7 @@
     
     ;
    
-    --color-text-light: #e1e6e9;
+    --color-text-light: #a0bac9; /*#e1e6e9 */
     --color-complementary: #7a4b6e;
     --color-accent-dark: #092d3e;
 
@@ -34,10 +34,11 @@
     --color-accent-hard: #11A128;
     --color-secondary: #8BA111; /* vl abändern*/ 
 
-    --color-bg: #003366; /* Background*/
-    --color-button-primary: #ff0080a9; /* Button primary */
-    --color-button-secondary: #11A128; /* Button seconday*/
-    --color-accent-soft: #8BA111; /* vl abändern*/ 
+    --color-bg: #4266008c; /* Background #003366*/
+    --color-button-primary: #ff0080a9; /* Button primary #ff0080a9*/
+    --color-button-secondary: #e7571e7c; /* Button seconday #11A128*/
+    --color-buttton-secondaryTwo: #1d2a73;
+    --color-accent-soft: #8BA111; /* vl abändern #8BA111*/ 
 
     /* Fonts */
 

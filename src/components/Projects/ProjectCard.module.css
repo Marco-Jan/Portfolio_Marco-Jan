@@ -78,7 +78,7 @@
 .title {
     font-size: 25px;
     font-weight: 700;
-    color: var(--color-button-secondary);
+    color: var(--color-accent-soft);
     margin-top: 18px;
 }
 
@@ -118,7 +118,7 @@
     font-size: 20px;
     font-weight: 400;
     border-radius: 100px;
-    background: var(--color-button-secondary);
+    background: var(--color-accent-soft);
     padding: 1px 22px;
     margin-bottom: 24px;
 }

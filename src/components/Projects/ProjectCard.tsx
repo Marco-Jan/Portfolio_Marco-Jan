@@ -77,7 +77,7 @@ export const ProjectCard = ({ title, imageSrc, videoSrc, description, skills, de
                     </ul>
                     <hr className={styles.hr} />
                     <div className={styles.links}>
-                        <a href={demo} className={styles.link} target="_blank">zur App</a>
+                        <a href={demo} className={styles.link} target="_blank">App</a>
                         <a href={source} className={styles.link} target="_blank">Github</a>
                     </div>
                 </div>

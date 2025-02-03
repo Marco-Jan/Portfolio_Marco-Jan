@@ -24,9 +24,9 @@ export const About = () => {
                             </div>
                             <div className={styles.aboutItemtext}>
                                 <h3>Frontend Developer</h3>
-                                <p>Ich bin Frontend-Entwickler mit Erfahrung im Erstellen von responsiven und optimierten Webseiten</p>
+                                {/* <p>In meinem Werkzeugkasten finden sich nicht nur HTML, CSS und JavaScript, sondern auch eine Leidenschaft für Ästhetik. Jedes Element fügt sich zu einem harmonischen Ganzen zusammen, das Funktion und Form vereint.</p> */}
                             </div>
-                            <button className={styles.skillsBtn} onClick={() => setShowFrontend(!showFrontend)}>{showFrontend ? 'X' : 'Talent-Arsenal'}</button>
+                            <button className={styles.skillsBtn} onClick={() => setShowFrontend(!showFrontend)}>{showFrontend ? 'X' : 'Skills'}</button>
                             <div className={`${styles.skills} ${showFrontend ? styles.showFrontend : ''}`}>
                                 {frontendSkills.map((skill, id) => (
                                     <div key={id} className={styles.skill}>
@@ -51,9 +51,9 @@ export const About = () => {
                             </div>
                             <div className={styles.aboutItemtext}>
                                 <h3>Backend Developer</h3>
-                                <p>Ich bin Backend-Entwickler mit fundierten Kenntnissen in der Entwicklung skalierbarer und sicherer Serveranwendungen</p>
+                                {/* <p>Hinter jeder Anwendung steckt ein solides Fundament. Im Backend sorge ich für klare Datenstrukturen und effiziente Abläufe, damit alles reibungslos funktioniert</p> */}
                             </div>
-                            <button className={styles.skillsBtn} onClick={() => setShowBackend(!showBackend)}>{ showBackend ? 'X' : 'Talent-Arsenal'}</button>
+                            <button className={styles.skillsBtn} onClick={() => setShowBackend(!showBackend)}>{ showBackend ? 'X' : 'Skills'}</button>
                             <div className={`${styles.skills} ${showBackend ? styles.showBackend : ''}`}>
                                 {backendSkills.map((skill, id) => (
                                     <div key={id} className={styles.skill}>
@@ -78,9 +78,9 @@ export const About = () => {
                             </div>
                             <div className={styles.aboutItemtext}>
                                 <h3>UI Design</h3>
-                                <p>Ich bin UI-Designer mit einem Auge für detailverliebtes Design und nutzerfreundliche Schnittstellen</p>
+                                {/* <p>Ästhetik und Funktionalität gehen bei mir Hand in Hand. Mit einem feinen Gespür für Trends und Nutzerbedürfnisse gestalte ich digitale Erlebnisse, die nicht nur verführen, sondern auch nachhaltig überzeugen</p> */}
                             </div>
-                            <button className={styles.skillsBtn} onClick={() => setShowUiDesign(!showUiDesign)}>{ showUiDesign ? 'X' : 'Talent-Arsenal'}</button>
+                            <button className={styles.skillsBtn} onClick={() => setShowUiDesign(!showUiDesign)}>{ showUiDesign ? 'X' : 'Skills'}</button>
                             <div className={`${styles.skills} ${showUiDesign ? styles.showUiDesign : ''}`}>
                                 {uiDesignSkills.map((skill, id) => (
                                     <div key={id} className={styles.skill}>

@@ -18,18 +18,18 @@ export const ProjectCard = ({ title, imageSrc, videoSrc, description, skills, de
 
 
 
-    useEffect(() => {
+/*     useEffect(() => {
         // Prüfen, ob der Benutzer Microsoft Edge verwendet
         const userAgent = navigator.userAgent;
-        console.log(userAgent, "agent");
+       
         
         if (userAgent.includes("Edg/")) {
             setIsEdge(true);
         }
-        if(userAgent.includes("Moz/")) {
-            setIsEdge(true);
-        }
-    }, []);
+        
+    }, []); */
+
+    
 
     const handleMouseEnter = () => {
         if (videoRef.current && !isEdge) {

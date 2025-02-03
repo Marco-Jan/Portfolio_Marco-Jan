@@ -41,6 +41,7 @@ export const Projects = () => {
                     <ProjectCard
                         key={id}
                         imageSrc={project.imageSrc}
+                        videoSrc={project.videoSrc}
                         title={project.title}
                         description={project.description}
                         skills={project.skills}

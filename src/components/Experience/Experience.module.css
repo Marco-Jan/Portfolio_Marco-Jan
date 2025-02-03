@@ -60,10 +60,6 @@
     flex-wrap: wrap;
 }
 
-
-
-
-
 .historyItemDetails {
     
     font-family: var(--font-roboto);
@@ -72,6 +68,15 @@
 .historyItemDetails h3 {
     font-size: 30px;
     font-weight: 500;
+    text-align: -webkit-center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+
+.historyItemDetails h2 {
+    font-size: 20px;
+    font-weight: 400;
     text-align: -webkit-center;
     margin-bottom: 10px;
     margin-top: 30px;

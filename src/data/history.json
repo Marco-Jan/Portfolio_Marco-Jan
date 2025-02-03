@@ -2,6 +2,7 @@
     {
         "role" : "Software Developer",
         "organisation": "EDV|GRAZ",
+        "job": "Lehre",
         "startDate": "February-2023",
         "endDate": "Present",
         "experience": ["Worked with Phyton", "Node", "Javascript","Typescript","C-Sharp", "PHP", "SQL", "Figma"],
@@ -10,6 +11,7 @@
     {
         "role" : "Grafic Designer",
         "organisation": "Freundentanz",
+        "job": "Designer",
         "startDate": "December-2022",
         "endDate": "Present",
         "experience": ["Worked with Adobe Photoshop", "Illustrator","After Effect"],
@@ -18,7 +20,8 @@
     
     {
         "role" : "Software Developer",
-        "organisation": "iteas IT SERVICES | IT Entwicklung Adjustierung Service",
+        "organisation": "Iteas IT SERVICES",
+        "job": "Praktikum",
         "startDate": "August-2023",
         "endDate": "September-2023",
         "experience": ["Worked with PHP","SQL","Wordpress"],
@@ -28,10 +31,23 @@
     {
         "role" : "Software Developer",
         "organisation": "VIVAFA",
+        "job": "Praktikum",
         "startDate": "April-2024",
         "endDate": "Mai-2024",
         "experience": ["Worked with Javascript","HTML","CSS", "Figma"],
         "imageSrc": "history/edvgraz2.png"
     }
+    ,
+    {
+        "role" : "Software Developer",
+        "organisation": "Qoncept",
+        "job": "Praktikum",
+        "startDate": "November-2024",
+        "endDate": "Dezember-2024",
+        "experience": ["Worked with Typescript","Angular","HTML","CSS","Figma"],
+        "imageSrc": "history/edvgraz2.png"
+    }
+
+
     
 ]

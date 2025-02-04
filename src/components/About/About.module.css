@@ -4,18 +4,19 @@
     display: flex;
     flex-direction: column;
     border-radius: 13.5px; 
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 10%;
+    margin-right: 10%;
     z-index: 1;
     margin-top: 200px;
 }
 
 .title {
     color: var(--color-text);
-    font-size: 31.5px; 
+    font-size: 35px;
     font-weight: 700;
-    letter-spacing: 1.575px;
+    letter-spacing: 1.75px;
     text-transform: uppercase;
+    position: relative;
     z-index: 1;
 }
 
@@ -43,11 +44,11 @@
     list-style: none;
     width: calc(33.333% - 20px); 
     height: fit-content;
+    
     padding: 22.5px; 
-    background-size: 0 100%;
-    box-sizing: border-box;
-    /* cursor:crosshair;  */
-    /* transition: transform 1500ms; */
+    /* background-size: 0 100%; */
+    /* box-sizing: border-box; */
+    
     
 
 
@@ -102,6 +103,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 /* Skill Section */
@@ -110,13 +112,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* gap: 42px;  */
     margin: 20px;
     padding: 0; 
-    transition: max-height 1.2s ease, padding 0.4s ease;
-    overflow: hidden;
-    max-height: 0;
+    max-height: none;
+    overflow: visible; /* Skills sollen immer sichtbar sein */
 }
+
 
 .skills.showFrontend {
     max-height: 900px; 
@@ -171,7 +172,7 @@
     appearance: none;
 }
 
-.skillsBtn {
+/* .skillsBtn {
     text-decoration: none;
     background-color: var(--color-button-secondary);
     color: var(--color-text);
@@ -183,7 +184,7 @@
     border: 0;
     margin-top: 120px;
     margin-bottom: 22px; 
-}
+} */
 
 .progressBar::-webkit-progress-bar {
     background-color: #2b2b2b86;

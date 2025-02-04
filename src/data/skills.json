@@ -10,39 +10,30 @@
         "imageSrc": "skills/css.png",
         "skills" : 60,
         "category": "frontend"
-
     },
     {
         "title": "React",
         "imageSrc": "skills/React.png",
         "skills" : 40,
         "category": "frontend"
-
-
     },
     {
         "title": "Java-Script",
         "imageSrc": "skills/JavaScript.png",
         "skills" : 50,
         "category": "frontend"
-
-
     },
     {
         "title": "Typescript",
         "imageSrc": "skills/Typescript.png", 
         "skills" : 50,
         "category": "frontend"
-
-
     },
     {
         "title": "Phyton",
         "imageSrc": "skills/Python.png",
         "skills" : 20,
         "category": "backend"
-
-
     },
     {
         "title": "C-Sharp",
@@ -55,31 +46,24 @@
         "imageSrc": "skills/PHP.png",
         "skills" : 40,
         "category": "backend"
-
-
     },
     {
         "title": "SQL",
         "imageSrc": "skills/Sql.png",
         "skills" : 40,
         "category": "backend"
-
-
     },
     {
         "title": "Photoshop",
         "imageSrc": "skills/adobePs.png",
         "skills" : 70,
         "category": "uiDesign"
-
     },
     {
         "title": "Illustrator ",
         "imageSrc": "skills/adobeAi.png",
         "skills" : 20,
         "category": "uiDesign"
-
-
     },
     {
         "title": "After Effects",
@@ -95,7 +79,7 @@
     },
     {
         "title": "Firebase",
-        "imageSrc": "skills/firebase.png",
+        "imageSrc": "skills/firebase.svg",
         "skills": 40,
         "category": "backend"
     }

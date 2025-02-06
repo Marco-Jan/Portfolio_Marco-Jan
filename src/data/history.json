@@ -5,7 +5,7 @@
         "job": "Lehre",
         "startDate": "February-2023",
         "endDate": "Present",
-        "experience": ["Worked with Phyton", "Node", "Javascript","Typescript","C-Sharp", "PHP", "SQL", "Figma"],
+        "experience": ["Worked with Phyton", "Node", "Javascript","Typescript","C-Sharp", "PHP", "SQL","PostgreSQL","Firebase" ,"Figma", "JAVA", "Kotlin"],
         "imageSrc": "history/edvgraz2.png"
     },
     {

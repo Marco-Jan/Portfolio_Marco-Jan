@@ -75,7 +75,7 @@
         background: rgb(25, 55, 109);
         padding: 24px 5px;
         box-shadow: 0 0 4px rgba(233, 233, 233, 0.25);
-        transform: translateX(100%); /* Start außerhalb des Bildschirms */
+        transform: translatey(100%); /* Start außerhalb des Bildschirms */
         opacity: 0; /* Unsichtbar starten */
         transition: transform 0.3s ease, opacity 0.3s ease; /* Sanfte Übergänge */
     }

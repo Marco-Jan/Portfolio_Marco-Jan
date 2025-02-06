@@ -41,8 +41,56 @@
     font-size: 30px;
     font-weight: 600;
     padding: 17px 26px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25)
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    
+    /* Für den Ripple-Effekt */
+    position: relative;
+    overflow: overflow; /* verhindert, dass die Welle über die Kante hinausläuft */
+    cursor: pointer;
 }
+
+/* Das Span, das die "Welle" darstellt */
+.ripple {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(197, 56, 202, 0.4);
+    transform: translate(-50%, -50%);
+    pointer-events: none; /* nimmt keine Klicks an */
+    opacity: 0; /* Anfangs unsichtbar */
+}
+
+/* Animation wird getriggert, solange der Button "active" ist */
+.contactBtn:hover .ripple {
+    animation: ripple-animation 0.6s ease-out forwards;
+}
+
+/* Keyframes für das Aufblasen und Verblassen */
+@keyframes ripple-animation {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0.8;
+    }
+    50% {
+        width: 100px; /* an Button-Größe anpassen */
+        height: 100px;
+        opacity: 0.5;
+    }
+    100% {
+        width: 200px; /* an Button-Größe anpassen */
+        height: 200px;
+        opacity: 0;
+    }
+}
+
+  
+
+/* contactbutton playground  */
+
 
 .heroImgContainer{
     

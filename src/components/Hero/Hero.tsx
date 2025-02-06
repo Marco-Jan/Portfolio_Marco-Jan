@@ -38,7 +38,7 @@ export const Hero = () => {
                 <p className={styles.description}>
                     <span ref={typedRef}></span>
                 </p>
-                <a href="mailto:marco.jan@gmx.de" className={styles.contactBtn}>Contact Me</a>
+                <a href="mailto:contact@marco-jan.at" className={styles.contactBtn}>Contact Me</a>
             </div>
             <img src={getImageUrl("hero/hero2.png")} alt="Profilbild_Marco_Jan" className={styles.heroImg} />
         </section>

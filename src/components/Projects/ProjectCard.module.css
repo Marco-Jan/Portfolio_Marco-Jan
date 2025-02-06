@@ -20,7 +20,7 @@
     /* Hellerer Rand für besseren Kontrast */
     -webkit-backdrop-filter: blur(15px);
     /* Stärkere Unschärfe für mehr Glass-Effekt */
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
     /* Stärkere Unschärfe für mehr Glass-Effekt */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     /* Sanfter Schatten für ein subtileres Aussehen */

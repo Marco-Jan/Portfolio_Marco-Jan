@@ -4,7 +4,7 @@ import skillsData from '../../data/skills.json';
 
 export const About = () => {
   return (
-    <section className={styles.skillsSection}>
+    <section className={styles.skillsSection} id="skills">
       <h2>Technologien & Tools</h2>
       <div className={styles.skillsGrid}>
         {skillsData.map((skill, index) => (

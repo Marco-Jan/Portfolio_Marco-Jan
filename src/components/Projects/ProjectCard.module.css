@@ -9,7 +9,13 @@
     z-index: 10;
     position: relative;
     overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
+.container:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
 
 .glassEffect {
     background: rgba(255, 255, 255, 0.05);

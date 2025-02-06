@@ -210,6 +210,11 @@
     margin-bottom: 18px; 
 }
 
+.glassEffect:hover {
+
+    border: 0.2px solid #a59954;
+}
+
 @media screen and (max-width: 1200px) {
     .aboutItems {
     justify-content: space-around;

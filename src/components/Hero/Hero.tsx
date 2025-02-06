@@ -10,9 +10,10 @@ export const Hero = () => {
         if (typedRef.current) {
             const typed = new Typed(typedRef.current, {
                 strings: [
-                    "Hey! Schön, dass du den Weg zu meinem Portfolio gefunden hast.",
-                    "Hier zeige ich dir einige meiner Lieblingsprojekte...",
-                    "Melde dich gerne bei mir!"
+                ".. Code-Nerd mit einer Schwäche für Hunde.",
+                "Hier tüftele ich an Websites und Apps, die das Leben leichter machen.",
+                "Hast du Fragen? Immer her damit!",
+                "Viel Spaß beim Stöbern - und denk an den Hunde-Content!"
                 ],
                 typeSpeed: 24,
                 backSpeed: 30,

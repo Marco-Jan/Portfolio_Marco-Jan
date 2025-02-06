@@ -103,15 +103,15 @@
 }
 
 .glassEffect {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
     /* Einfaches transparentes Weiß */
     border-radius: 15px;
     /* Etwas größerer Radius für weichere Ecken */
     border: 0.2px solid #ffffff40;
     /* Hellerer Rand für besseren Kontrast */
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
     /* Stärkere Unschärfe für mehr Glass-Effekt */
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
     /* Stärkere Unschärfe für mehr Glass-Effekt */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     /* Sanfter Schatten für ein subtileres Aussehen */

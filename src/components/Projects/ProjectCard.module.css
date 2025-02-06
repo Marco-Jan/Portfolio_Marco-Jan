@@ -12,14 +12,22 @@
 }
 
 .glassEffect {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    /* Einfaches transparentes Weiß */
     border-radius: 15px;
-    border: 0.2px solid rgba(255, 255, 255, 0.25);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    /* Etwas größerer Radius für weichere Ecken */
+    border: 0.2px solid #ffffff40;
+    /* Hellerer Rand für besseren Kontrast */
+    -webkit-backdrop-filter: blur(15px);
+    /* Stärkere Unschärfe für mehr Glass-Effekt */
+    backdrop-filter: blur(3px);
+    /* Stärkere Unschärfe für mehr Glass-Effekt */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 8px;
-    margin: 0 30px 30px 20px
+    /* Sanfter Schatten für ein subtileres Aussehen */
+    padding: 20px;
+    margin: 0 30px 30px 20px;
+
+    /* Weicherer Rand */
 }
 
 .glassEffect:hover {

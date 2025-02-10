@@ -15,7 +15,7 @@ export const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className={styles.iconWrapper}>
+            <div className= {`${styles.iconWrapper} ${styles.glassEffect}`}>
               <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
             </div>
             <p>{skill.title}</p>

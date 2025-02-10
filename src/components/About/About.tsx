@@ -10,12 +10,12 @@ export const About = () => {
         {skillsData.map((skill, index) => (
           <a
             key={index}
-            className={styles.skillItem}
+            className={`${styles.skillItem}  ${styles.glassEffect}`}
             href={skill.url}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className= {`${styles.iconWrapper} ${styles.glassEffect}`}>
+            <div className= {styles.iconWrapper}>
               <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
             </div>
             <p>{skill.title}</p>

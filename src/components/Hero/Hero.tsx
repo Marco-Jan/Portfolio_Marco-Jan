@@ -33,7 +33,7 @@ export const Hero = () => {
                     <span ref={typedRef}></span>
                 </p>
                 {/* Dein Button mit dem Ripple-Element */}
-                <a href="mailto:contact@marco-jan.at" className={styles.contactBtn}>
+                <a href="mailto:marco.jan@gmx.de" className={styles.contactBtn}>
                     Contact Me
                     <span className={styles.ripple}></span>
                 </a>

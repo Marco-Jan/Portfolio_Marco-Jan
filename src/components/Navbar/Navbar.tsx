@@ -22,8 +22,9 @@ export const Navbar = () => {
 
                 <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen} ${styles.glassEffect}`} onClick={() => setMenuOpen(false)} >
                     <li><a href="#about">Über mich</a></li>
-                    <li><a href="#experience">Erfahrungen</a></li>
                     <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Erfahrungen</a></li>
                     <li><a href="#contact">Kontakt</a></li>
                  
                 </ul>

@@ -1,17 +1,19 @@
 [
     {
         "title": "TeamToss",
-        "imageSrc": "projects/teamTossPreview.mp4",
+        "videoSrc": "projects/teamTossPreview.mp4",
+        "imageSrc": "projects/teamTossPreview.jpg",
         "description": "TeamToss - Der Teamgenerator",
-        "skills":["React", "Node", "Typescript", "Firebase"],
+        "skills": ["React", "Node", "Typescript", "Firebase"],
         "source": "https://github.com/Marco-Jan/TeamToss",
         "demo": "https://teamtoss.vercel.app/"
     },
     {
         "title": "PokeMind",
-        "imageSrc": "projects/pokemind.mp4",
-        "description": "PokeMind ist ein Gedächnis Trainer",
-        "skills":["React", "Node", "Typescript", "Firebase"],
+        "videoSrc": "projects/pokemind.mp4",
+        "imageSrc": "projects/pokemind.jpg",
+        "description": "PokeMind ist ein Gedächtnistrainer",
+        "skills": ["React", "Node", "Typescript", "Firebase"],
         "source": "https://github.com/Marco-Jan/PokeMind",
         "demo": "https://poke-mind.vercel.app/"
     }

@@ -3,44 +3,46 @@ import { getImageUrl } from "../../utils";
 import styles from './Hero.module.css';
 import Typed from 'typed.js';
 
-
 export const Hero = () => {
     const typedRef = useRef<HTMLSpanElement>(null);
 
     useEffect(() => {
         if (typedRef.current) {
-            const options = {
+            const typed = new Typed(typedRef.current, {
                 strings: [
-                    "Hey! Schön, dass du den Weg zu meinem Portfolio gefunden hast.",
-                    "Hier zeige ich dir einige meiner Lieblingsprojekte und was mich als Entwickler ausmacht.",
-                    "Wenn du neugierig bist oder einfach Lust auf einen Austausch hast, melde dich gerne bei mir!"
-
+                ".. Code-Nerd mit einer Schwäche für Hunde.",
+                "Hier tüftele ich an Websites und Apps, die das Leben leichter machen.",
+                "Hast du Fragen? Immer her damit!",
+                "Viel Spaß beim Stöbern - und denk an den Hunde-Content!"
                 ],
                 typeSpeed: 24,
                 backSpeed: 30,
                 backDelay: 1000,
                 startDelay: 500,
                 loop: false
-            };
-
-            const typed = new Typed(typedRef.current, options);
-
-            return () => {
-                typed.destroy();
-            };
+            });
+            return () => typed.destroy();
         }
     }, []);
 
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>Hallo ich bin Marco</h1>
+                <h1 className={styles.title}>Hallo, ich bin Marco</h1>
                 <p className={styles.description}>
                     <span ref={typedRef}></span>
                 </p>
-                <a href="mailto:marco.jan@gmx.de" className={styles.contactBtn}>Contact Me</a>
+                {/* Dein Button mit dem Ripple-Element */}
+                <a href="mailto:contact@marco-jan.at" className={styles.contactBtn}>
+                    Contact Me
+                    <span className={styles.ripple}></span>
+                </a>
             </div>
-            <img src={getImageUrl("hero/hero2.png")} alt="Profilbild_Marco_Jan" className={styles.heroImg} />
+            <img
+                src={getImageUrl("hero/hero2.png")}
+                alt="Profilbild_Marco_Jan"
+                className={styles.heroImg}
+            />
         </section>
     );
 };

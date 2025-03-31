@@ -1,102 +1,129 @@
 [
     {
-        "title": "HTML",
-        "imageSrc": "skills/html.png",
-        "skills": 60,
-        "category": "frontend"
+      "title": "HTML",
+      "imageSrc": "skills/html.png",
+      "url": "https://developer.mozilla.org/de/docs/Web/HTML"
+      
     },
     {
-        "title": "CSS",
-        "imageSrc": "skills/css.png",
-        "skills" : 60,
-        "category": "frontend"
-
+      "title": "CSS",
+      "imageSrc": "skills/css.png",
+      "url": "https://developer.mozilla.org/de/docs/Web/CSS"
+      
     },
     {
-        "title": "React",
-        "imageSrc": "skills/React.png",
-        "skills" : 40,
-        "category": "frontend"
-
-
+      "title": "React",
+      "imageSrc": "skills/React.png",
+      "url": "https://reactjs.org/"
+      
     },
     {
-        "title": "Java-Script",
-        "imageSrc": "skills/JavaScript.png",
-        "skills" : 50,
-        "category": "frontend"
-
-
+      "title": "Java-Script",
+      "imageSrc": "skills/JavaScript.png",
+      "url": "https://developer.mozilla.org/de/docs/Web/JavaScript"
+      
     },
     {
-        "title": "Typescript",
-        "imageSrc": "skills/Typescript.png", 
-        "skills" : 50,
-        "category": "frontend"
-
-
+      "title": "Typescript",
+      "imageSrc": "skills/Typescript.png",
+      "url": "https://www.typescriptlang.org/"
+      
     },
     {
-        "title": "Phyton",
-        "imageSrc": "skills/Python.png",
-        "skills" : 20,
-        "category": "backend"
-
-
+      "title": "Kotlin",
+      "imageSrc": "skills/Kotlin.png",
+      "url": "https://kotlinlang.org/"
+      
     },
     {
-        "title": "C-Sharp",
-        "imageSrc": "skills/C_sharp.png",
-        "skills" : 20,
-        "category": "backend"
+      "title": "Phyton",
+      "imageSrc": "skills/Python.png",
+      "url": "https://www.python.org/"
+     
     },
     {
-        "title": "PHP",
-        "imageSrc": "skills/PHP.png",
-        "skills" : 40,
-        "category": "backend"
-
-
+      "title": "C-Sharp",
+      "imageSrc": "skills/C_sharp.png",
+      "url": "https://learn.microsoft.com/de-de/dotnet/csharp/"
+      
     },
     {
-        "title": "SQL",
-        "imageSrc": "skills/Sql.png",
-        "skills" : 40,
-        "category": "backend"
-
-
+      "title": "JAVA",
+      "imageSrc": "skills/Java.png",
+      "url": "https://www.java.com/"
+      
     },
     {
-        "title": "Photoshop",
-        "imageSrc": "skills/adobePs.png",
-        "skills" : 70,
-        "category": "uiDesign"
-
+      "title": "PHP",
+      "imageSrc": "skills/PHP.png",
+      "url": "https://www.php.net/"
+      
     },
     {
-        "title": "Illustrator ",
-        "imageSrc": "skills/adobeAi.png",
-        "skills" : 20,
-        "category": "uiDesign"
-
-
+      "title": "SQL",
+      "imageSrc": "skills/Sql.png",
+      "url": "https://www.w3schools.com/sql/"
     },
     {
-        "title": "After Effects",
-        "imageSrc": "skills/adobeAe.png",
-        "skills" : 20,
-        "category": "uiDesign"
+      "title": "PostgreSQL",
+      "imageSrc": "skills/PostgreSql.svg",
+      "url": "https://www.postgresql.org/"
+      
     },
     {
-        "title": "Figma",
-        "imageSrc": "skills/figma.png",
-        "skills" : 40,
-        "category": "uiDesign"
+      "title": "Photoshop",
+      "imageSrc": "skills/adobePs.png",
+      "url": "https://www.adobe.com/de/products/photoshop.html"
+      
     },
     {
-        "title": "Firebase",
-        "imageSrc": "skills/firebase.png",
-        "skills": 40,
-        "category": "backend"
+      "title": "Illustrator ",
+      "imageSrc": "skills/adobeAi.png",
+      "url": "https://www.adobe.com/de/products/illustrator.html"
+      
+    },
+    {
+      "title": "After Effects",
+      "imageSrc": "skills/adobeAe.png",
+      "url": "https://www.adobe.com/de/products/aftereffects.html"
+      
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png",
+      "url": "https://www.figma.com/de-de/"
+      
+    },
+    {
+      "title": "Firebase",
+      "imageSrc": "skills/firebase.svg",
+      "url": "https://firebase.google.com/"
+      
+    },
+    {
+      "title": "Visual Studio Code",
+      "imageSrc": "skills/vsc.svg",
+      "url": "https://vscode.dev/?vscode-lang=de-de"
+      
+    },
+    
+    {
+      "title": "Android Studio",
+      "imageSrc": "skills/AndroidStudio.png",
+      "url": "https://developer.android.com/kotlin?hl=de"
+      
+    },
+    {
+      "title": "IntelliJ IDEA",
+      "imageSrc": "skills/idea.svg",
+      "url": "https://www.jetbrains.com/idea/"
+      
+    },
+    {
+      "title": "Express JS",
+      "imageSrc": "skills/express.png",
+      "url": "https://expressjs.com/"
+      
     }
-]
+  ]
+  

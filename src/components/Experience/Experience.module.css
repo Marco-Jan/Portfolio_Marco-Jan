@@ -7,6 +7,8 @@
     margin-right: 10%;
 }
 
+
+
 .title {
     color: var(--color-text);
     font-size: 35px;
@@ -36,13 +38,14 @@
     flex-direction: column;
     align-items: center;
     width: 380px;
-    height: 460px;
+    /* height: auto; */
     gap: 17px;
     /* background: #19376d; */
     /* background: linear-gradient(90deg, #19376d 0%, rgba(25, 25, 109, 0)100%); */
     border-radius: 10px;
     padding: 24px;
     z-index: 1;
+    
 }
 
 .companyImgContainer {
@@ -60,10 +63,6 @@
     flex-wrap: wrap;
 }
 
-
-
-
-
 .historyItemDetails {
     
     font-family: var(--font-roboto);
@@ -72,6 +71,15 @@
 .historyItemDetails h3 {
     font-size: 30px;
     font-weight: 500;
+    text-align: -webkit-center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+
+.historyItemDetails h2 {
+    font-size: 20px;
+    font-weight: 400;
     text-align: -webkit-center;
     margin-bottom: 10px;
     margin-top: 30px;
@@ -98,15 +106,15 @@
 }
 
 .glassEffect {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
     /* Einfaches transparentes Weiß */
     border-radius: 15px;
     /* Etwas größerer Radius für weichere Ecken */
-    border: 0.2px solid rgba(255, 255, 255, 0.25);
+    border: 0.2px solid #ffffff40;
     /* Hellerer Rand für besseren Kontrast */
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
     /* Stärkere Unschärfe für mehr Glass-Effekt */
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
     /* Stärkere Unschärfe für mehr Glass-Effekt */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     /* Sanfter Schatten für ein subtileres Aussehen */
@@ -114,6 +122,11 @@
     margin-bottom: 20px;
 
     /* Weicherer Rand */
+}
+
+.glassEffect:hover {
+
+    border: 0.2px solid #a59954;
 }
 
 
@@ -128,7 +141,7 @@
         flex-direction: column;
         align-items: center;
         width: 380px;
-        height: 460px;
+        height: auto;
         gap: 17px;
         /* background: #19376d; */
         /* background: linear-gradient(90deg, #19376d 0%, rgba(25, 25, 109, 0)100%); */

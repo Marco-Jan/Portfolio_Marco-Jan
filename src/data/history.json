@@ -1,43 +1,13 @@
 [
     {
         "role" : "Software Developer",
-        "organisation": "edvgraz holzinger seminar gmb",
-        "job": "Lehre",
-        "startDate": "February-2023",
-        "endDate": "Present",
-        "experience": ["Worked with Phyton", "Node", "Javascript","Typescript","C-Sharp", "PHP", "SQL","PostgreSQL","Firebase" ,"Figma", "JAVA", "Kotlin"],
+        "organisation": "CONTRACT Consulting Group ",
+        "job": "PHP Developer",
+        "startDate": "Juli-2025",
+        "endDate": "Current",
+        "experience": ["Worked with PHP","JS","HTML","CSS","JSGRID"],
         "imageSrc": "history/edvgraz2.png"
     },
-    {
-        "role" : "Grafic Designer",
-        "organisation": "Freundentanz",
-        "job": "Designer",
-        "startDate": "December-2022",
-        "endDate": "Present",
-        "experience": ["Worked with Adobe Photoshop", "Illustrator","After Effect"],
-        "imageSrc": "history/Freundentanz_glow.png"
-    },
-    
-    {
-        "role" : "Software Developer",
-        "organisation": "Iteas IT SERVICES GmbH",
-        "job": "Praktikum",
-        "startDate": "August-2023",
-        "endDate": "September-2023",
-        "experience": ["Worked with PHP","SQL","Wordpress"],
-        "imageSrc": "history/Freundentanz_glow.png"
-    }
-    ,
-    {
-        "role" : "Software Developer",
-        "organisation": "VIVAFA",
-        "job": "Praktikum",
-        "startDate": "April-2024",
-        "endDate": "Mai-2024",
-        "experience": ["Worked with Javascript","HTML","CSS", "Figma"],
-        "imageSrc": "history/edvgraz2.png"
-    }
-    ,
     {
         "role" : "Software Developer",
         "organisation": "qoncept technology GmbH",
@@ -46,8 +16,41 @@
         "endDate": "Dezember-2024",
         "experience": ["Worked with Typescript","Angular","HTML","CSS","Figma"],
         "imageSrc": "history/edvgraz2.png"
+    },
+    {
+        "role" : "Software Developer",
+        "organisation": "VIVAFA",
+        "job": "Praktikum",
+        "startDate": "April-2024",
+        "endDate": "Mai-2024",
+        "experience": ["Worked with Javascript","HTML","CSS", "Figma"],
+        "imageSrc": "history/edvgraz2.png"
+    },
+    {
+        "role" : "Software Developer",
+        "organisation": "Iteas IT SERVICES GmbH",
+        "job": "Praktikum",
+        "startDate": "August-2023",
+        "endDate": "September-2023",
+        "experience": ["Worked with PHP","SQL","Wordpress"],
+        "imageSrc": "history/Freundentanz_glow.png"
+    },
+    {
+        "role" : "Software Developer",
+        "organisation": "edvgraz holzinger seminar gmb",
+        "job": "Lehre",
+        "startDate": "February-2023",
+        "endDate": "März-2025",
+        "experience": ["Worked with Phyton", "Node", "Javascript","Typescript","C-Sharp", "PHP", "SQL","PostgreSQL","Firebase" ,"Figma", "JAVA", "Kotlin"],
+        "imageSrc": "history/edvgraz2.png"
+    },
+    {
+        "role" : "Grafic Designer",
+        "organisation": "Freundentanz",
+        "job": "Designer",
+        "startDate": "December-2022",
+        "endDate": "Current",
+        "experience": ["Worked with Adobe Photoshop", "Illustrator","After Effect"],
+        "imageSrc": "history/Freundentanz_glow.png"
     }
-
-
-    
 ]

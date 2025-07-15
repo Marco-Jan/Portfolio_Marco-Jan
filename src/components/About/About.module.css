@@ -216,9 +216,9 @@
 
 .skillsSection {
   /* Container-Styling */
-  margin: 0 auto;
+  margin: 0 8%;
   padding: 40px 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .skillsSection h2 {

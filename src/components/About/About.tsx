@@ -1,11 +1,11 @@
-import styles from './About.module.css';
-import { getImageUrl } from '../../utils';
-import skillsData from '../../data/skills.json';
+import styles from "./About.module.css";
+import { getImageUrl } from "../../utils";
+import skillsData from "../../data/skills.json";
 
 export const About = () => {
   return (
     <section className={styles.skillsSection} id="skills">
-      <h2>Skills</h2>
+      <h2 className={styles.title}>Skills</h2>
       <div className={styles.skillsGrid}>
         {skillsData.map((skill, index) => (
           <a
@@ -15,7 +15,7 @@ export const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className= {styles.iconWrapper}>
+            <div className={styles.iconWrapper}>
               <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
             </div>
             <p>{skill.title}</p>

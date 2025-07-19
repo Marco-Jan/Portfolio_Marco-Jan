@@ -31,21 +31,28 @@
 .history {
     display: flex;
     gap: 40px;
+    align-items: stretch;
+    flex-wrap: wrap; /* Ermöglicht Umbruch in neue Zeilen */
+    justify-content: center; /* Zentriert die Items */
 }
+
 
 .historyItem {
     display: flex;
-    flex-direction: column;
+    flex-direction: wrap;
+    
     align-items: center;
     width: 380px;
-    /* height: auto; */
+    min-height: 400px; /* Mindesthöhe setzen */
     gap: 17px;
-    /* background: #19376d; */
-    /* background: linear-gradient(90deg, #19376d 0%, rgba(25, 25, 109, 0)100%); */
     border-radius: 10px;
     padding: 24px;
     z-index: 1;
-    
+}
+
+.historyItem:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .companyImgContainer {
@@ -54,13 +61,29 @@
 
 }
 
+.historyLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.historyLink:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.historyLink:visited {
+    color: inherit;
+}
+
 .historyImg {
     width: 200px;
 }
 
 .history {
     display: flex;
-    flex-wrap: wrap;
+    gap: 40px;
+    align-items: stretch;
 }
 
 .historyItemDetails {

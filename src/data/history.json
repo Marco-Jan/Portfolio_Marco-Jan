@@ -6,7 +6,9 @@
         "startDate": "Juli-2025",
         "endDate": "Current",
         "experience": ["Worked with PHP","JS","HTML","CSS","JSGRID"],
-        "imageSrc": "history/edvgraz2.png"
+        "imageSrc": "history/edvgraz2.png",
+        "link": "https://contract.at/"
+
     },
     {
         "role" : "Software Developer",
@@ -15,7 +17,8 @@
         "startDate": "November-2024",
         "endDate": "Dezember-2024",
         "experience": ["Worked with Typescript","Angular","HTML","CSS","Figma"],
-        "imageSrc": "history/edvgraz2.png"
+        "imageSrc": "history/edvgraz2.png",
+        "link": "https://qoncept.at/"
     },
     {
         "role" : "Software Developer",
@@ -24,7 +27,8 @@
         "startDate": "April-2024",
         "endDate": "Mai-2024",
         "experience": ["Worked with Javascript","HTML","CSS", "Figma"],
-        "imageSrc": "history/edvgraz2.png"
+        "imageSrc": "history/edvgraz2.png",
+        "link": "https://www.vivafy.net/"
     },
     {
         "role" : "Software Developer",
@@ -33,7 +37,8 @@
         "startDate": "August-2023",
         "endDate": "September-2023",
         "experience": ["Worked with PHP","SQL","Wordpress"],
-        "imageSrc": "history/Freundentanz_glow.png"
+        "imageSrc": "history/Freundentanz_glow.png",
+        "link": "https://iteas.at/"
     },
     {
         "role" : "Software Developer",
@@ -42,7 +47,8 @@
         "startDate": "February-2023",
         "endDate": "März-2025",
         "experience": ["Worked with Phyton", "Node", "Javascript","Typescript","C-Sharp", "PHP", "SQL","PostgreSQL","Firebase" ,"Figma", "JAVA", "Kotlin"],
-        "imageSrc": "history/edvgraz2.png"
+        "imageSrc": "history/edvgraz2.png",
+        "link": "https://edvgraz.at/"
     },
     {
         "role" : "Grafic Designer",
@@ -51,6 +57,7 @@
         "startDate": "December-2022",
         "endDate": "Current",
         "experience": ["Worked with Adobe Photoshop", "Illustrator","After Effect"],
-        "imageSrc": "history/Freundentanz_glow.png"
+        "imageSrc": "history/Freundentanz_glow.png",
+        "link": "https://www.instagram.com/freudentanz_/"
     }
 ]

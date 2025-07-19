@@ -5,7 +5,7 @@
         "job": "PHP Developer",
         "startDate": "Juli-2025",
         "endDate": "Current",
-        "experience": ["Worked with PHP","JS","HTML","CSS","JSGRID"],
+        "experience": ["Worked with PHP","JavaScript","HTML","CSS","JSGRID","SQL","MariaDB","Apache"],
         "imageSrc": "history/edvgraz2.png",
         "link": "https://contract.at/"
 
@@ -16,7 +16,7 @@
         "job": "Praktikum",
         "startDate": "November-2024",
         "endDate": "Dezember-2024",
-        "experience": ["Worked with Typescript","Angular","HTML","CSS","Figma"],
+        "experience": ["Worked with TypeScript","Angular","HTML","CSS","Figma","JavaScript","Node.js"],
         "imageSrc": "history/edvgraz2.png",
         "link": "https://qoncept.at/"
     },
@@ -26,7 +26,7 @@
         "job": "Praktikum",
         "startDate": "April-2024",
         "endDate": "Mai-2024",
-        "experience": ["Worked with Javascript","HTML","CSS", "Figma"],
+        "experience": ["Worked with JavaScript","HTML","CSS","Figma","Visual Studio Code"],
         "imageSrc": "history/edvgraz2.png",
         "link": "https://www.vivafy.net/"
     },
@@ -36,7 +36,7 @@
         "job": "Praktikum",
         "startDate": "August-2023",
         "endDate": "September-2023",
-        "experience": ["Worked with PHP","SQL","Wordpress"],
+        "experience": ["Worked with PHP","SQL","MariaDB","Apache","WordPress","MySQL","HTML","CSS","JavaScript"],
         "imageSrc": "history/Freundentanz_glow.png",
         "link": "https://iteas.at/"
     },
@@ -46,17 +46,17 @@
         "job": "Lehre",
         "startDate": "February-2023",
         "endDate": "März-2025",
-        "experience": ["Worked with Phyton", "Node", "Javascript","Typescript","C-Sharp", "PHP", "SQL","PostgreSQL","Firebase" ,"Figma", "JAVA", "Kotlin"],
+        "experience": ["Worked with Python","Node.js","JavaScript","TypeScript","C#","PHP","SQL","PostgreSQL","Firebase","Figma","Java","Kotlin","Android Studio","IntelliJ IDEA"],
         "imageSrc": "history/edvgraz2.png",
         "link": "https://edvgraz.at/"
     },
     {
-        "role" : "Grafic Designer",
+        "role" : "Graphic Designer",
         "organisation": "Freundentanz",
         "job": "Designer",
         "startDate": "December-2022",
         "endDate": "Current",
-        "experience": ["Worked with Adobe Photoshop", "Illustrator","After Effect"],
+        "experience": ["Worked with Adobe Photoshop","Adobe Illustrator","After Effects","Creative Cloud","Design"],
         "imageSrc": "history/Freundentanz_glow.png",
         "link": "https://www.instagram.com/freudentanz_/"
     }

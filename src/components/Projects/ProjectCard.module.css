@@ -5,6 +5,7 @@
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px;
+    width: 100%;
     max-width: 435px;
     z-index: 10;
     position: relative;
@@ -42,13 +43,14 @@
 }
 
 .mediaContainer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    position: relative;
-    width: 100%;
-    height: 350px;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;            /* wichtig: Clip für Overlay */
 }
 
 .projectVideo {
@@ -82,39 +84,55 @@
 }
 
 .overlay {
-    position: relative;
-    z-index: 1;
-    padding: 20px ;
-    background: rgba(0, 0, 0, 0.7); /* Optional: adds a semi-transparent background to text */
-    border-radius: 10px;
-    width: 100%;
-    height: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  z-index: 2;
+  padding: 16px;
+  width: 100%;
+
+  /* kein fixes height mehr! */
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  /* Hintergrund immer da */
+  background: rgba(0, 0, 0, 0.72);
+  border-radius: 10px;
+
+  /* optional: nicer Look */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
 .title {
-    font-size: 25px;
-    font-weight: 700;
-    color: var(--color-button-secondary);
-    margin-top: 18px;
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--color-button-secondary);
+
+  margin: 0 0 6px 0;   /* statt margin-top */
+  line-height: 1.1;
 }
 
 .description {
-    margin-top: 6px;
-    font-size: 15px;
-    font-weight: 400;
+  margin: 0 0 10px 0;  /* statt nur margin-top */
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .skills {
-    width: 100%;
-    margin-top: 14px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 6px;
-    list-style: none;
+  width: 100%;
+  margin: 0 0 10px 0;  /* statt margin-top */
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
 }
 
 .skill {
@@ -126,89 +144,89 @@
 }
 
 .links {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .link {
-    text-decoration: none;
-    color: var(--color-text);
-    font-size: 20px;
-    font-weight: 400;
-    border-radius: 100px;
-    background: var(--color-button-secondary);
-    padding: 1px 22px;
-    margin-bottom: 24px;
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-button-secondary);
+  padding: 1px 22px;
+  margin-bottom: 0;     /* wichtig: nicht nach unten rausziehen */
 }
 
 .hr {
-    margin: 15px;
+  margin: 10px 0;
+  opacity: 0.35;
 }
 
 @media screen and (max-width: 830px) {
-    .container {
-        max-width: 600px;
-    }
+  .container {
+    max-width: 600px;
+  }
 
-    .link {
-        font-size: 18px;
-    }
+  .link {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 630px) {
-    .container {
-        /* max-width: 330px; */
-        max-width: 500px;
-    }
-    .projectImg {
-        height: 150px;
-        margin-bottom: 26px;
-    }
-    .title {
-        font-size: 22px;
-        text-align: left;
-    }
+  .container {
+    max-width: 500px;
+  }
 
-    .description {
-        margin-top: 6px;
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .skills {
-        justify-content: flex-start;
-    }
+  .title {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .description {
+    margin: 0 0 10px 0;   /* wichtig: nicht nur margin-top */
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .skills {
+    justify-content: flex-start;
+  }
+
+  .skill {
+    font-size: 12px;
+  }
+
+  .link {
+    font-size: 18px;
+    padding: 1px 10px;
+  }
 }
-    .skill{
-        font-size: 12px;
-    }
-
-    .link {
-        font-size: 18px;
-        padding: 1px 10px;
-    }
-
-    
 
 @media screen and (max-width: 485px) {
-    .container {
-        max-width: 350px;
-    }
+  .container {
+    max-width: 350px;
+  }
 
-    .title{
-        font-size: 22px;
-    }
-    .overlay{
-        height: 55%;
-    }
+  .title {
+    font-size: 22px;
+  }
 
-    .skill {
-        font-size: 12px;
-    }
+  /* WICHTIG: keine fixe Höhe mehr */
+  .overlay {
+    height: auto;
+  }
 
-    .link {
-        font-size: 18px;
-        padding: 0 10px;
-       
-    }
+  .skill {
+    font-size: 12px;
+  }
+
+  .link {
+    font-size: 18px;
+    padding: 0 10px;
+  }
 }
+
+

@@ -1,5 +1,14 @@
 [
     {
+        "title": "WalkBuddy",
+        "videoSrc": "projects/walkbuddy.mp4",
+        "imageSrc": "projects/walkbuddy.JPG",
+        "description": "WalkBuddy verbindet Hundebesitzer in deiner Nähe für gemeinsame Spaziergänge.",
+        "skills": ["React", "Node", "Typescript", "Express", "SQLite","Chakra UI"],
+        "source": "https://github.com/Marco-Jan/WalkBuddy",
+        "demo": "https://walk-buddy.app//"
+    },
+    {
         "title": "TeamToss",
         "videoSrc": "projects/teamTossPreview.mp4",
         "imageSrc": "projects/teamTossPreview.jpg",

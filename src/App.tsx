@@ -1,7 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/home";
-import Impressum from "./pages/Impressum";
-import Datenschutz from "./pages/Datenschutz";
+import Home from "./routepages/home";
+import Impressum from "./routepages/Impressum";
+import Datenschutz from "./routepages/Datenschutz";
+
+
 
 function App() {
   return (

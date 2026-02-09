@@ -99,8 +99,8 @@
 }
 
 .heroImg {
-    margin-top: 48px;
-    width: 48%;
+    margin: 28px;
+    width: 28%;
     z-index: 1;
     border-radius: 10%;
     animation-name: floating;

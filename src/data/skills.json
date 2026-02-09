@@ -30,28 +30,10 @@
       
     },
     {
-      "title": "Kotlin",
-      "imageSrc": "skills/Kotlin.png",
-      "url": "https://kotlinlang.org/"
-      
-    },
-    {
       "title": "Phyton",
       "imageSrc": "skills/Python.png",
       "url": "https://www.python.org/"
      
-    },
-    {
-      "title": "C-Sharp",
-      "imageSrc": "skills/C_sharp.png",
-      "url": "https://learn.microsoft.com/de-de/dotnet/csharp/"
-      
-    },
-    {
-      "title": "JAVA",
-      "imageSrc": "skills/Java.png",
-      "url": "https://www.java.com/"
-      
     },
     {
       "title": "PHP",
@@ -86,6 +68,12 @@
       "title": "After Effects",
       "imageSrc": "skills/adobeAe.png",
       "url": "https://www.adobe.com/de/products/aftereffects.html"
+      
+    },
+        {
+      "title": "Davinci resolve",
+      "imageSrc": "skills/divinciresolve.png",
+      "url": "https://www.blackmagicdesign.com/de/products/davinciresolve/"
       
     },
     {
@@ -127,3 +115,4 @@
     }
   ]
   
+

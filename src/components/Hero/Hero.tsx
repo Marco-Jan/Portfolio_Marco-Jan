@@ -10,10 +10,10 @@ export const Hero = () => {
         if (typedRef.current) {
             const typed = new Typed(typedRef.current, {
                 strings: [
-                ".. Code-Nerd mit einer Schwäche für Hunde.",
-                "Hier tüftele ich an Websites und Apps, die das Leben leichter machen.",
+                "Hier entstehen Websites und Apps, die im Alltag wirklich helfen.",
+                "Ich mag saubere Strukturen, klare UIs und Projekte, die funktionieren.",
                 "Hast du Fragen? Immer her damit!",
-                "Viel Spaß beim Stöbern - und denk an den Hunde-Content!"
+                "Viel Spaß beim Stöbern!"
                 ],
                 typeSpeed: 24,
                 backSpeed: 30,
@@ -28,7 +28,7 @@ export const Hero = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>Hallo, ich bin Marco</h1>
+                <h1 className={styles.title}>Ich bin Marco Jan – Developer, Tüftler und Hundemensch.</h1>
                 <p className={styles.description}>
                     <span ref={typedRef}></span>
                 </p>

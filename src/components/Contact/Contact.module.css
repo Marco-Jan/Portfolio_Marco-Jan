@@ -3,8 +3,8 @@
 .container {
     color: var(--color-text);
     margin-top: var(--section-gap);
-    background: rgba(196, 163, 90, 0.08);
-    border-top: 1px solid rgba(196, 163, 90, 0.2);
+    /* background: rgba(196, 163, 90, 0.08); */
+    /* border-top: 1px solid rgba(196, 163, 90, 0.2); */
     display: flex;
     justify-content: center;
     align-items: center;

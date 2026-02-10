@@ -1,22 +1,30 @@
 @import "../../vars.css";
 
 .navbar {
-    position: relative;
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 35px;
-    z-index: 2;
-    margin: 0 10%;
+    padding: 16px var(--section-x);
+    z-index: 100;
+    background: rgba(11, 20, 38, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .title {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 700;
     text-decoration: none;
     color: var(--color-text);
-    padding-left: 5%;
+    letter-spacing: 0.5px;
+    transition: color var(--transition-normal);
+}
 
+.title:hover {
+    color: var(--color-gold);
 }
 
 .menu {
@@ -29,113 +37,100 @@
 
 .menuItems {
     display: flex;
-    gap: 47px;
+    gap: 32px;
     list-style: none;
+    align-items: center;
 }
 
 .menuItems a {
-    font-size: 25px;
-    color: var(--color-text);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-text-muted);
     text-decoration: none;
-    transition: color 0.3s;
-    display: block;
-}
-
-.menuItems li a {
+    letter-spacing: 0.3px;
+    transition: color var(--transition-normal);
     position: relative;
-    transition: all 0.3s ease;
+    padding-bottom: 4px;
 }
 
-.menuItems li a::before {
+.menuItems a::after {
     content: '';
     position: absolute;
-    bottom: -5px;
+    bottom: 0;
     left: 50%;
     width: 0;
     height: 2px;
-    background: #a59954;
-    transition: all 0.3s ease;
+    background: var(--color-gold);
+    transition: all var(--transition-normal);
     transform: translateX(-50%);
+    border-radius: 1px;
 }
 
-.menuItems li a:hover::before {
+.menuItems a:hover {
+    color: var(--color-gold);
+}
+
+.menuItems a:hover::after {
     width: 100%;
 }
 
-.menuItems li a:hover {
-    color: #a59954;
-    text-shadow: 0 0 10px rgba(165, 153, 84, 0.5);
-}
-
-/* Media Queries für mobile Ansicht */
-@media screen and (max-width: 865px) {
+/* Mobile */
+@media screen and (max-width: 768px) {
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        padding: 14px 6%;
     }
 
     .menu {
         position: absolute;
-        right: 0; /* Position innerhalb des Bildschirms */
-        top: 0; /* Bei Bedarf anpassen */
-        margin-right: 0; /* Anpassung für bessere Sichtbarkeit */
+        right: 6%;
+        top: 0;
         flex-direction: column;
         align-items: flex-end;
-        gap: 11px;
-        z-index: 3;
+        gap: 8px;
+        z-index: 101;
     }
 
     .menuBtn {
         display: block;
-        width: 40px;
-        margin-top: 24px;
+        width: 32px;
+        margin-top: 12px;
         cursor: pointer;
+        filter: brightness(0.9);
+        transition: filter var(--transition-fast);
+    }
+
+    .menuBtn:hover {
+        filter: brightness(1.2);
     }
 
     .menuItems {
-        display: flex; /* Start als flex */
         flex-direction: column;
-        /* align-items: flex-end; */
-        gap: 13px;
-        border-radius: 10px;
-        background: rgb(25, 55, 109);
-        padding: 24px 5px;
-        box-shadow: 0 0 4px rgba(233, 233, 233, 0.25);
-        transform: translatey(100%); /* Start außerhalb des Bildschirms */
-        opacity: 0; /* Unsichtbar starten */
-        transition: transform 0.3s ease, opacity 0.3s ease; /* Sanfte Übergänge */
+        gap: 8px;
+        padding: 16px 20px;
+        transform: translateY(-20px);
+        opacity: 0;
+        pointer-events: none;
+        transition: transform var(--transition-normal), opacity var(--transition-normal);
     }
 
     .menuOpen {
-        transform: translateX(0); /* Menü in den sichtbaren Bereich bewegen */
-        opacity: 1; /* Menü sichtbar machen */
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: all;
     }
 
     .glassEffect {
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 10%);
-        border-radius: 10px;
-        border: 0.2px solid rgba(255, 255, 255, 0.25);
-        -webkit-backdrop-filter: blur(8px);
-                backdrop-filter: blur(8px);
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
-        padding: 20px;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .navbar {
-        padding-top: 25px;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        background: rgba(11, 20, 38, 0.9);
+        border-radius: var(--radius-md);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        box-shadow: var(--shadow-lg);
     }
 
-    .menu {
-        right: 0; /* Anpassen, falls erforderlich */
+    .menuItems a {
+        font-size: 16px;
+        color: var(--color-text);
+        padding: 4px 8px;
     }
 }

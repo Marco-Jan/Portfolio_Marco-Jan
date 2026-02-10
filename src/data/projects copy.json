@@ -16,6 +16,14 @@
         "skills": ["React", "Node", "Typescript", "Firebase"],
         "source": "https://github.com/Marco-Jan/TeamToss",
         "demo": "https://teamtoss.vercel.app/"
+    },
+    {
+        "title": "PokeMind",
+        "videoSrc": "projects/pokemind.mp4",
+        "imageSrc": "projects/pokemind.jpg",
+        "description": "PokeMind ist ein Gedächtnistrainer",
+        "skills": ["React", "Node", "Typescript", "Firebase"],
+        "source": "https://github.com/Marco-Jan/PokeMind",
+        "demo": "https://poke-mind.vercel.app/"
     }
-   
 ]

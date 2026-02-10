@@ -2,63 +2,45 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 79px;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding: 0 var(--section-x);
+    margin-top: var(--section-gap);
 }
-
-
 
 .title {
-    color: var(--color-text);
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    color: var(--color-gold);
+    margin-bottom: 32px;
     position: relative;
-    z-index: 1;
+    padding-left: 20px;
 }
 
+.title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: var(--color-gold);
+    border-radius: 50%;
+}
 
 .content {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 14px;
     z-index: 1;
 }
 
 .history {
-    display: flex;
-    gap: 40px;
-    align-items: stretch;
-    flex-wrap: wrap; /* Ermöglicht Umbruch in neue Zeilen */
-    justify-content: center; /* Zentriert die Items */
-}
-
-
-.historyItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 380px;
-    min-height: 400px; /* Mindesthöhe setzen */
-    gap: 17px;
-    border-radius: 10px;
-    padding: 24px;
-    z-index: 1;
-    transition: all 0.3s ease; /* Smooth transition hinzugefügt */
-}
-
-.historyItem:hover {
-    transform: translateY(-4px) scale(1.03);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-}
-
-.companyImgContainer {
-    display: flex;
-    justify-items: center;
-
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    width: 100%;
+    list-style: none;
+    padding: 0;
 }
 
 .historyLink {
@@ -67,13 +49,44 @@
     display: block;
 }
 
-.historyLink:hover {
+.historyLink:hover,
+.historyLink:visited {
     text-decoration: none;
     color: inherit;
 }
 
-.historyLink:visited {
-    color: inherit;
+.historyItem {
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    border-radius: var(--radius-lg);
+    z-index: 1;
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal), border-color var(--transition-normal);
+    height: 100%;
+}
+
+.historyItem:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.glassEffect {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    box-shadow: var(--glass-shadow);
+    padding: 28px;
+    margin-bottom: 0;
+}
+
+.glassEffect:hover {
+    border-color: var(--glass-border-hover);
+}
+
+.companyImgContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .historyImg {
@@ -81,141 +94,86 @@
 }
 
 .historyItemDetails {
-    
-    font-family: var(--font-roboto);
+    font-family: var(--font-primary);
 }
 
 .historyItemDetails h3 {
-    font-size: 30px;
-    font-weight: 500;
-    text-align: -webkit-center;
-    margin-bottom: 10px;
-    margin-top: 30px;
-
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-gold);
+    margin-bottom: 4px;
+    line-height: 1.3;
 }
 
 .historyItemDetails h2 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
-    text-align: -webkit-center;
-    margin-bottom: 10px;
-    margin-top: 30px;
-
+    color: var(--color-text);
+    margin-bottom: 8px;
 }
 
 .historyItemDetails p {
-    font-size: 20px;
-    font-weight: 300;
-    text-decoration: overline;
-    text-align: -webkit-center;
- 
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--color-text-muted);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .historyItemDetails ul {
-    margin-top: 12px;
-    list-style-position: inside;
-    list-style-type: circle;
-    margin-left: 18%;
+    margin: 0;
+    padding-left: 16px;
+    list-style-type: none;
+}
+
+.historyItemDetails ul li::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: var(--color-gold);
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
 }
 
 .experience {
-    font-size: 18px;
+    font-size: 13px;
+    color: var(--color-text-muted);
+    line-height: 1.8;
 }
 
-.glassEffect {
-    background: rgba(255, 255, 255, 0.05);
-    /* Einfaches transparentes Weiß */
-    border-radius: 15px;
-    /* Etwas größerer Radius für weichere Ecken */
-    border: 0.2px solid #ffffff40;
-    /* Hellerer Rand für besseren Kontrast */
-    -webkit-backdrop-filter: blur(15px);
-    /* Stärkere Unschärfe für mehr Glass-Effekt */
-    backdrop-filter: blur(2px);
-    /* Stärkere Unschärfe für mehr Glass-Effekt */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    /* Sanfter Schatten für ein subtileres Aussehen */
-    padding: 20px;
-    margin-bottom: 20px;
-
-    /* Weicherer Rand */
-}
-
-.glassEffect:hover {
-
-    border: 0.2px solid #a59954;
-}
-
-
-@media screen and (max-width: 950px) {
-    .history {
-        display: flex;
-        gap: 40px;
-    }
-
-    .historyItem {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 380px;
-        height: auto;
-        gap: 17px;
-        /* background: #19376d; */
-        /* background: linear-gradient(90deg, #19376d 0%, rgba(25, 25, 109, 0)100%); */
-        border-radius: 10px;
-        padding: 24px;
-        z-index: 1;
-    }
-}
-
-
-
-@media screen and (max-width: 830px) {
-    .content {
-        align-items: center;
-        gap: 34px;
-    }
-
-    .skills {
-        width: 100%;
-        flex-direction: row;
-        justify-content: center;
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 5%;
+        margin-top: 80px;
     }
 
     .history {
-        display: inline-block;
+        grid-template-columns: 1fr;
     }
 
+    .historyItem {
+        padding: 22px;
+    }
+
+    .historyItemDetails h3 {
+        font-size: 16px;
+    }
+
+    .historyItemDetails h2 {
+        font-size: 14px;
+    }
 }
 
-@media screen and (max-width: 450px) {
-
+@media screen and (max-width: 400px) {
     .historyItem {
-        display: flex;
-        flex-direction: column;
-        max-width: 320px;
-
+        padding: 18px;
     }
 
     .experience {
         font-size: 12px;
     }
-
-
-}
-
-@media screen and (max-width: 360px) {
-
-    .historyItem {
-        display: flex;
-        flex-direction: column;
-        width: 250px;
-
-    }
-
-    .experience {
-        font-size: 12px;
-    }
-
-
 }

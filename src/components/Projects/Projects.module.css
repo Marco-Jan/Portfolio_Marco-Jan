@@ -1,29 +1,58 @@
 @import '../../vars.css';
 
 .container {
-    margin-top: 76px;
+    padding: 0 var(--section-x);
+    margin-top: var(--section-gap);
     color: var(--color-text);
-    margin-left: 10%;
-    margin-right: 10%;
-
 }
 
 .title {
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    color: var(--color-gold);
+    margin-bottom: 32px;
     position: relative;
-   
+    padding-left: 20px;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: var(--color-gold);
+    border-radius: 50%;
 }
 
 .projects {
-    margin-top: 37px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
     width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 5%;
+        margin-top: 80px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

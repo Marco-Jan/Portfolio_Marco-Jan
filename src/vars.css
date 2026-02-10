@@ -1,46 +1,56 @@
 :root {
-    /* Colours */
-    /* --color-text: #fff;
+    /* Base Colors */
+    --color-bg: #0b1426;
+    --color-surface: rgba(15, 25, 50, 0.6);
+    --color-text: #e8ecef;
+    --color-text-muted: #8892a4;
     --color-text-black: #0e0e0e;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #04152d; */
 
-    --color-text: #e1e6e9;
-    --color-text-black: #0e0e0e;
-    --color-primary: hsla(309, 76%, 18%, 0.5);
-    
-    --color-dark: #0b2447;
-   
-    /* --color-bg: #06252b; */
-    /* --color-bg: #16879D; */
-    
-;
+    /* Accent Colors */
+    --color-gold: #c4a35a;
+    --color-gold-dim: rgba(196, 163, 90, 0.15);
+    --color-teal: #1a8a9e;
+    --color-teal-dark: #0d5f6e;
+    --color-pink: #ff0080;
 
-    --color-accent-light: #1d5d73;
-    /* --color-accent-soft: #4a6d7c; */
-    
-    ;
-   
-    --color-text-light: #e1e6e9;
-    --color-complementary: #7a4b6e;
+    /* Backward-compatible aliases */
+    --color-primary: #c4a35a;
+    --color-dark: #0b1426;
+    --color-accent-light: #1a8a9e;
     --color-accent-dark: #092d3e;
+    --color-complementary: #7a4b6e;
+    --color-text-light: #e8ecef;
+    --color-button-primary: rgba(255, 0, 128, 0.5);
+    --color-button-secondary: #c4a35a;
 
-    /* neues Color Schema */
+    /* Glass Effect */
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-border-hover: rgba(196, 163, 90, 0.4);
+    --glass-blur: 12px;
+    --glass-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
 
-    /* --color-bg: #2811A1;
-    --color-accent-soft: #A11143;
-    --color-accent-hard: #11A128;
-    --color-secondary: #8BA111; /* vl abändern*/ 
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.25);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.35);
 
-    --color-bg: #005a66ab; /* Background*/
-    --color-button-primary: #ff0080a9; /* Button primary */
-    --color-button-secondary: #ab9f59; /* Button seconday*/
-    --color-accent-soft: #8BA111; /* vl abändern*/ 
+    /* Spacing */
+    --section-x: 8%;
+    --section-gap: 120px;
+
+    /* Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-full: 100px;
 
     /* Fonts */
+    --font-primary: "Outfit", sans-serif;
+    --font-robot: "Roboto", "Outfit", sans-serif;
 
-    --font-robot: "Roboto";
-
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
 }

@@ -23,24 +23,35 @@ export const ProjectCard = ({
 }: ProjectCardProps) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isEdge, setIsEdge] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Prüfen, ob der Benutzer Microsoft Edge verwendet
     const userAgent = navigator.userAgent;
-
     if (userAgent.includes("Edg/")) {
       setIsEdge(true);
     }
+
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
+  // Autoplay auf Mobile
+  useEffect(() => {
+    if (videoRef.current && isMobile && !isEdge) {
+      videoRef.current.play().catch(() => {});
+    }
+  }, [isMobile, isEdge]);
+
   const handleMouseEnter = () => {
-    if (videoRef.current && !isEdge) {
+    if (videoRef.current && !isEdge && !isMobile) {
       videoRef.current.play();
     }
   };
 
   const handleMouseLeave = () => {
-    if (videoRef.current && !isEdge) {
+    if (videoRef.current && !isEdge && !isMobile) {
       videoRef.current.pause();
       videoRef.current.currentTime = 0;
     }
@@ -54,14 +65,12 @@ export const ProjectCard = ({
     >
       <div className={styles.mediaContainer}>
         {isEdge ? (
-          // Bildausgabe für Edge
           <img
             src={getImageUrl(imageSrc)}
             className={styles.projectImage}
             alt={title}
           />
         ) : (
-          // Video für andere Browser
           <video
             ref={videoRef}
             src={getImageUrl(videoSrc)}
@@ -69,6 +78,7 @@ export const ProjectCard = ({
             muted
             loop
             playsInline
+            autoPlay={isMobile}
           ></video>
         )}
 

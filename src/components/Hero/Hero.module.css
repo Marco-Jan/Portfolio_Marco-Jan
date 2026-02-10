@@ -101,8 +101,8 @@
 }
 
 .heroImg {
-    width: 100%;
-    max-width: 380px;
+    margin: 28px;
+    width: 28%;
     z-index: 1;
     border-radius: var(--radius-xl);
     animation: floating 4s ease-in-out infinite;

@@ -5,7 +5,6 @@
         "imageSrc": "projects/walkbuddy.JPG",
         "description": "WalkBuddy verbindet Hundebesitzer in deiner Nähe für gemeinsame Spaziergänge.",
         "skills": ["React", "Node", "Typescript", "Express", "SQLite","Chakra UI"],
-        "source": "https://github.com/Marco-Jan/WalkBuddy",
         "demo": "https://walk-buddy.app//"
     },
     {
@@ -14,7 +13,6 @@
         "imageSrc": "projects/teamTossPreview.jpg",
         "description": "TeamToss - Der Teamgenerator",
         "skills": ["React", "Node", "Typescript", "Firebase"],
-        "source": "https://github.com/Marco-Jan/TeamToss",
         "demo": "https://teamtoss.vercel.app/"
     }
    

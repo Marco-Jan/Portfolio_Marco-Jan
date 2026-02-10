@@ -46,7 +46,7 @@ export const Projects = () => {
                         description={project.description}
                         skills={project.skills}
                         demo={project.demo}
-                        source={project.source}
+                      
                     />
                 ))}
             </div>

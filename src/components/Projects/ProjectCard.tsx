@@ -4,7 +4,6 @@ import styles from "./ProjectCard.module.css";
 
 interface ProjectCardProps {
   title: string;
-  source: string;
   skills: string[];
   imageSrc: string;
   videoSrc: string;
@@ -19,7 +18,6 @@ export const ProjectCard = ({
   description,
   skills,
   demo,
-  source,
 }: ProjectCardProps) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isEdge, setIsEdge] = useState(false);
@@ -78,7 +76,7 @@ export const ProjectCard = ({
             muted
             loop
             playsInline
-            autoPlay={isMobile}
+            autoPlay
           ></video>
         )}
 
@@ -102,14 +100,6 @@ export const ProjectCard = ({
                 rel="noreferrer"
               >
                 App
-              </a>
-              <a
-                href={source}
-                className={styles.link}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
               </a>
             </div>
           </div>
